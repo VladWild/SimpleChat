@@ -1,0 +1,91 @@
+html, body, #page {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: #ff7d00;
+    font-family: Verdana;
+    font-style: italic;
+}
+
+#page > form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.rectangle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    background: #91eaed;
+    border: 10px groove #055acd;
+    border-radius: 100px 10px;
+}
+
+.field-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.username, .password{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.username > span, .password > span{
+    margin-bottom: 5px;
+}
+
+.username{
+    margin-bottom: 10px;
+}
+
+.password{
+    margin-top: 10px;
+}
+
+.login{
+    width: 42%;
+    height: 15%;
+    border: 0 solid #ffffff;
+    border-radius: 5px;
+    background: #001cf2;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login:hover{
+    background: #328bea;
+    box-shadow: 0 0 10px #3800f2;
+}
+
+.login:active{
+    background: #adc0e2;
+    box-shadow: 0 0;
+}
+
+.login > span{
+    color: white;
+    font-size: 15pt;
+}
+
+.warn{
+    position: absolute;
+    margin-top: 45px;
+    color: red;
+    font-size: 10pt;
+    font-family: Arial;
+    font-style: normal;
+}
+
+
+

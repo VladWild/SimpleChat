@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+
+    <display-name>Web app - Chat</display-name>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!--filters-->
+    <!--login-->
+    <!--Empty Name-->
+    <filter>
+        <filter-name>emptyName</filter-name>
+        <filter-class>filters.login.empty.EmptyName</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>emptyName</filter-name>
+        <servlet-name>login</servlet-name>
+    </filter-mapping>
+    <!--Empty Password-->
+    <filter>
+        <filter-name>emptyPassword</filter-name>
+        <filter-class>filters.login.empty.EmptyPassword</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>emptyPassword</filter-name>
+        <servlet-name>login</servlet-name>
+    </filter-mapping>
+    <!--Validate User-->
+    <filter>
+        <filter-name>validateUser</filter-name>
+        <filter-class>filters.login.validate.ValidateUser</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>validateUser</filter-name>
+        <servlet-name>login</servlet-name>
+    </filter-mapping>
+
+</web-app>
