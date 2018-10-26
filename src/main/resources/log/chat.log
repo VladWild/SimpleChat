@@ -1,11 +1,27 @@
-2018-10-26 12:11:43,825 DEBUG filters.login.empty.EmptyPassword - Change to empty password filter
-2018-10-26 12:11:43,826 DEBUG filters.login.validate.ValidateUser - Save in request attribute error of empty password
-2018-10-26 12:11:43,826 DEBUG filters.login.validate.ValidateUser - Output error of empty empty in view: password is not validate
-2018-10-26 12:11:47,826 DEBUG filters.login.empty.EmptyName    - The length userName = "2": 1
-2018-10-26 12:11:47,827 DEBUG filters.login.empty.EmptyName    - Save in request attribute "userName"
-2018-10-26 12:11:47,827 DEBUG filters.login.empty.EmptyName    - Change to empty password filter
-2018-10-26 12:11:47,827 DEBUG filters.login.empty.EmptyPassword - The length password = "1": 1
-2018-10-26 12:11:47,827 DEBUG filters.login.empty.EmptyPassword - Change to empty password filter
-2018-10-26 12:11:47,828 DEBUG filters.login.validate.ValidateUser - Save user2 in DAO
-2018-10-26 12:11:47,828 DEBUG filters.login.validate.ValidateUser - Change to login controller
-2018-10-26 12:11:47,828 INFO  controllers.Login                - User: userName = "2" is input in chat
+2018-10-26 23:04:39,418 DEBUG filters.login.validate.ValidateUser - Change to login controller
+2018-10-26 23:04:39,418 DEBUG controllers.Login                - Save "111dscdscdscdscds" in Session
+2018-10-26 23:04:39,418 INFO  controllers.Login                - User: userName = "111dscdscdscdscds" is input in chat
+2018-10-26 23:04:42,804 DEBUG filters.login.empty.EmptyName    - The length userName = "111dscdscdscdscds": 17
+2018-10-26 23:04:42,804 DEBUG filters.login.empty.EmptyName    - Save in request attribute "userName"
+2018-10-26 23:04:42,805 DEBUG filters.login.empty.EmptyName    - Change to empty password filter
+2018-10-26 23:04:42,805 DEBUG filters.login.empty.EmptyPassword - The length password = "1": 1
+2018-10-26 23:04:42,805 DEBUG filters.login.empty.EmptyPassword - Change to empty password filter
+2018-10-26 23:04:42,810 DEBUG filters.login.validate.ValidateUser - Change to login controller
+2018-10-26 23:04:42,811 DEBUG controllers.Login                - Save "111dscdscdscdscds" in Session
+2018-10-26 23:04:42,811 INFO  controllers.Login                - User: userName = "111dscdscdscdscds" is input in chat
+2018-10-26 23:04:45,884 DEBUG filters.login.empty.EmptyName    - The length userName = "111dscdscdscdscds": 17
+2018-10-26 23:04:45,885 DEBUG filters.login.empty.EmptyName    - Save in request attribute "userName"
+2018-10-26 23:04:45,885 DEBUG filters.login.empty.EmptyName    - Change to empty password filter
+2018-10-26 23:04:45,885 DEBUG filters.login.empty.EmptyPassword - The length password = "1erfref": 7
+2018-10-26 23:04:45,885 DEBUG filters.login.empty.EmptyPassword - Change to empty password filter
+2018-10-26 23:04:45,885 DEBUG filters.login.validate.ValidateUser - Save in request attribute error of empty password
+2018-10-26 23:04:45,885 DEBUG filters.login.validate.ValidateUser - Output error of empty empty in view: password is not validate
+2018-10-26 23:04:49,212 DEBUG filters.login.empty.EmptyName    - The length userName = "1111dscdscdscdscds": 18
+2018-10-26 23:04:49,213 DEBUG filters.login.empty.EmptyName    - Save in request attribute "userName"
+2018-10-26 23:04:49,213 DEBUG filters.login.empty.EmptyName    - Change to empty password filter
+2018-10-26 23:04:49,213 DEBUG filters.login.empty.EmptyPassword - The length password = "1": 1
+2018-10-26 23:04:49,213 DEBUG filters.login.empty.EmptyPassword - Change to empty password filter
+2018-10-26 23:04:49,213 DEBUG filters.login.validate.ValidateUser - Save user1111dscdscdscdscds in DAO
+2018-10-26 23:04:49,213 DEBUG filters.login.validate.ValidateUser - Change to login controller
+2018-10-26 23:04:49,213 DEBUG controllers.Login                - Save "1111dscdscdscdscds" in Session
+2018-10-26 23:04:49,213 INFO  controllers.Login                - User: userName = "1111dscdscdscdscds" is input in chat

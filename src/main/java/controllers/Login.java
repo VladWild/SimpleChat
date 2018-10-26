@@ -15,7 +15,12 @@ public class Login extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        logger.info("User: userName = \"" + req.getParameter("username") + "\" is input in chat");
+        String username = req.getParameter("username");
+
+        logger.debug("Save \"" + username + "\" in Session");
+        req.getSession().setAttribute("username", username);
+
+        logger.info("User: userName = \"" + username + "\" is input in chat");
         resp.sendRedirect("/chat/index.html");
     }
 }

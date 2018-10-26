@@ -13,12 +13,12 @@
             <div class="field-input">
                 <div class="username">
                     <span>Username:</span>
-                    <input type="text" name="username" value="${requestScope.userName}">
+                    <input type="text" name="username" value="1${requestScope.userName}">
                     <div class="warn">${requestScope.userNameError}</div>
                 </div>
                 <div class="password">
                     <span>Password:</span>
-                    <input type="password" name="password">
+                    <input type="password" name="password" value="1">
                     <div class="warn">${requestScope.passwordError}</div>
                 </div>
             </div>
