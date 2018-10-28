@@ -5,5 +5,8 @@ import datalayer.data.User;
 public interface UserDAO {
     boolean isLogin(User user);
     boolean isNameUsed(String name);
+
     void saveUser(User user);
+
+    String[] getAllUserNamesExceptLogin(String name);
 }

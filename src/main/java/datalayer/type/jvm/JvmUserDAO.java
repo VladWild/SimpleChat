@@ -41,4 +41,12 @@ class JvmUserDAO implements UserDAO {
     public void saveUser(User user) {
         users.add(user);
     }
+
+    @Override
+    public String[] getAllUserNamesExceptLogin(String name) {
+        return users.stream().map(User::getName)
+                .filter(userName -> !userName.equals(name))
+                .toArray(String[]::new);
+    }
 }
+
