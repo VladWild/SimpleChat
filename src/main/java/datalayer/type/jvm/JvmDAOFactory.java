@@ -20,12 +20,12 @@ public class JvmDAOFactory extends DAOFactory {
     }
 
     @Override
-    public MessageDAO getMessageDAO() {
+    public synchronized MessageDAO getMessageDAO() {
         return JvmMessageDAO.getInstance();
     }
 
     @Override
-    public UserDAO getUserDAO() {
+    public synchronized UserDAO getUserDAO() {
         return JvmUserDAO.getInstance();
     }
 }

@@ -1,4 +1,4 @@
-package controllers;
+package controllers.chat;
 
 import chat.Command;
 import chat.CommandType;
@@ -12,13 +12,13 @@ import datalayer.StorageType;
 import datalayer.UserDAO;
 import org.apache.log4j.Logger;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Objects;
 
 @WebServlet(name = "chat", urlPatterns = "/chat")
 public class ChatController extends HttpServlet {
@@ -45,12 +45,6 @@ public class ChatController extends HttpServlet {
         //req.setCharacterEncoding("UTF-8");
         //resp.setContentType("text/html; charset=UTF-8");
 
-        //System.out.println("Я в сервлете");
-        //System.out.println(req.getRequestURL());
-        //resp.sendRedirect(req.getContextPath() + "/index.jsp");
-        //req.getRequestDispatcher("/chat/in.html").forward(req, resp);
-        //resp.sendRedirect("/");
-
         try{
             parserData.parse(req);
 
@@ -63,11 +57,5 @@ public class ChatController extends HttpServlet {
         }
     }
 
-    /*@Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println(req.getContextPath() + "/index.jsp");
-        //resp.sendRedirect(req.getContextPath() + "/index.jsp");
-        req.getRequestDispatcher("/index.jsp").forward(req, resp);
-    }*/
 }
 

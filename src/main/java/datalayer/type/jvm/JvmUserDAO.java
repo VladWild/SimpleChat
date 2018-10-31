@@ -25,12 +25,12 @@ class JvmUserDAO implements UserDAO {
     }
 
     @Override
-    public boolean isLogin(User user) {
+    public synchronized boolean isLogin(User user) {
         return users.contains(user);
     }
 
     @Override
-    public boolean isUsernameExists(String name) {
+    public synchronized boolean isUserNameExists(String name) {
         return users.stream()
                 .map(User::getName)
                 .collect(Collectors.toSet())
@@ -38,19 +38,19 @@ class JvmUserDAO implements UserDAO {
     }
 
     @Override
-    public void saveUser(User user) {
+    public synchronized void saveUser(User user) {
         users.add(user);
     }
 
     @Override
-    public void removeUserByName(String name) {
+    public synchronized void removeUserByName(String name) {
         users = users.stream()
                 .filter(userName -> !userName.getName().equals(name))
                 .collect(Collectors.toSet());
     }
 
     @Override
-    public String[] getAllUserNamesExceptIn(String name) {
+    public synchronized String[] getAllUserNamesExceptIn(String name) {
         return users.stream().map(User::getName)
                 .filter(userName -> !userName.equals(name))
                 .toArray(String[]::new);

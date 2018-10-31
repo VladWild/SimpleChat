@@ -6,6 +6,7 @@ function View(model) {
     this.users = $(".users")[0];
     this.send = $("button")[0];
     this.field = $("input")[0];
+    this.logout = $("a")[0];
 
     this.init = function(){
         let that = this;
@@ -55,6 +56,9 @@ function View(model) {
                     console.log(user);
                 }
             };
+            that.logout.onclick = function () {
+                that.model.logout();
+            }
         }
 
         subscription();

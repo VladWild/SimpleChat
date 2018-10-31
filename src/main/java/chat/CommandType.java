@@ -1,9 +1,6 @@
 package chat;
 
-import chat.commands.Data;
-import chat.commands.Kick;
-import chat.commands.Login;
-import chat.commands.SendMessage;
+import chat.commands.*;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -33,7 +30,7 @@ public enum CommandType {
     }, LOGOUT {
         @Override
         protected Command getCommandChat() {
-            return null;
+            return new Logout();
         }
     };
 

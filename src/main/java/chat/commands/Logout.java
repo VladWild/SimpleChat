@@ -12,22 +12,18 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Date;
 
-public class SendMessage implements Command {
-    private static final String MESSAGE = "text";
+public class Logout implements Command {
+    private static final String LOGOUT_MESSAGE = "User \"%s\" is logout from chat";
 
     @Override
     public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO, ObjectMapper mapper) throws IOException {
-        String textMessage = (String) req.getAttribute(MESSAGE);
-        String username = (String) req.getSession().getAttribute(USERNAME);
+        String userName = (String) req.getSession().getAttribute(USERNAME);
+        req.getSession().setAttribute(USERNAME, null);
 
-        Message message = new Message(textMessage,
-                TypeMessage.MASSAGE, username, new Date());
+        Message message = new Message(String.format(LOGOUT_MESSAGE, userName),
+                TypeMessage.LOGIN, userName, new Date());
         messageDAO.addMessage(message);
 
-        Message[] messages = messageDAO.getAllMessages();
-
-        /*String messagesJson = mapper.writeValueAsString(messages);
-        resp.getWriter().write(messagesJson);*/
-        resp.sendRedirect("/");
+        userDAO.removeUserByName(userName);
     }
 }

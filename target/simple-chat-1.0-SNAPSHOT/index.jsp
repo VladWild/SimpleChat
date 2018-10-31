@@ -8,7 +8,7 @@
 </head>
 <body>
 <div id="page">
-    <form name="loginForm" method="post" action="./login">
+    <form name="loginForm" method="post" action="login">
         <div class="rectangle">
             <div class="field-input">
                 <div class="username">

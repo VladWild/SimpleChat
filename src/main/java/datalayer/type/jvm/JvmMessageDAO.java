@@ -26,12 +26,12 @@ class JvmMessageDAO implements MessageDAO {
     }
 
     @Override
-    public void addMessage(Message message) {
+    public synchronized void addMessage(Message message) {
         messages.add(message);
     }
 
     @Override
-    public Message[] getAllMessages() {
+    public synchronized Message[] getAllMessages() {
         return messages.toArray(new Message[0]);
     }
 }

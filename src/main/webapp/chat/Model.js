@@ -7,10 +7,11 @@ function Model(uri, update) {
     this.onShowUsers = new EventEmitter();
     this.onSendMessage = new EventEmitter();
     this.onClickUser = new EventEmitter();
+    this.onClickLogout = new EventEmitter();
 
     this.init = function(){
         this.initData();
-        /*setInterval(function () {
+/*        setInterval(function () {
             this.dynamicData();
         }.bind(this), this.update);*/
     }
@@ -52,6 +53,10 @@ Model.prototype = {
             that.onShowMessages.notify(data.messages);
             that.onShowUsers.notify(data.users);
         });
+    },
+    logout: function () {
+        let that = this;
+        $.get( this.uri, {command: "logout"});
     }
 };
 

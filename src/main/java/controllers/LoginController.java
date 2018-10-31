@@ -17,6 +17,7 @@ import java.util.Date;
 
 @WebServlet(name = "login", urlPatterns = "/login")
 public class LoginController extends HttpServlet {
+
     private static final Logger logger = Logger.getLogger(LoginController.class);
 
     @Override
