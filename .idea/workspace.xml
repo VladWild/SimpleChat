@@ -7,85 +7,97 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ab4777f-ad6e-45ce-aad2-b9c3a985b76f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/chat/commands/Logout.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/CommandType.java" afterPath="$PROJECT_DIR$/src/main/java/chat/CommandType.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/commands/SendMessage.java" afterPath="$PROJECT_DIR$/src/main/java/chat/commands/SendMessage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ChatController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/chat/ChatController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmDAOFactory.java" afterPath="$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmDAOFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmMessageDAO.java" afterPath="$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmMessageDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmUserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmUserDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/filters/chat/UserInChat.java" afterPath="$PROJECT_DIR$/src/main/java/filters/chat/UserInChat.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/filters/login/validate/ValidateUser.java" afterPath="$PROJECT_DIR$/src/main/java/filters/login/validate/ValidateUser.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log" afterPath="$PROJECT_DIR$/src/main/resources/log/chat.log" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.1" afterPath="$PROJECT_DIR$/src/main/resources/log/chat.log.1" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.2" afterPath="$PROJECT_DIR$/src/main/resources/log/chat.log.2" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.3" afterPath="$PROJECT_DIR$/src/main/resources/log/chat.log.3" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chat/Model.js" afterPath="$PROJECT_DIR$/src/main/webapp/chat/Model.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chat/View.js" afterPath="$PROJECT_DIR$/src/main/webapp/chat/View.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chat/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/chat/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/CommandType$1.class" afterPath="$PROJECT_DIR$/target/classes/chat/CommandType$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/CommandType$2.class" afterPath="$PROJECT_DIR$/target/classes/chat/CommandType$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/CommandType$3.class" afterPath="$PROJECT_DIR$/target/classes/chat/CommandType$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/CommandType$4.class" afterPath="$PROJECT_DIR$/target/classes/chat/CommandType$4.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/CommandType$5.class" afterPath="$PROJECT_DIR$/target/classes/chat/CommandType$5.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/CommandType.class" afterPath="$PROJECT_DIR$/target/classes/chat/CommandType.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/commands/SendMessage.class" afterPath="$PROJECT_DIR$/target/classes/chat/commands/SendMessage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/ChatController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/controllers/LoginController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/UserDAO.class" afterPath="$PROJECT_DIR$/target/classes/datalayer/UserDAO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/type/jvm/JvmDAOFactory.class" afterPath="$PROJECT_DIR$/target/classes/datalayer/type/jvm/JvmDAOFactory.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/type/jvm/JvmMessageDAO.class" afterPath="$PROJECT_DIR$/target/classes/datalayer/type/jvm/JvmMessageDAO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/type/jvm/JvmUserDAO.class" afterPath="$PROJECT_DIR$/target/classes/datalayer/type/jvm/JvmUserDAO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/filters/chat/UserInChat.class" afterPath="$PROJECT_DIR$/target/classes/filters/chat/UserInChat.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/filters/login/validate/ValidateUser.class" afterPath="$PROJECT_DIR$/target/classes/filters/login/validate/ValidateUser.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log" afterPath="$PROJECT_DIR$/target/classes/log/chat.log" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.1" afterPath="$PROJECT_DIR$/target/classes/log/chat.log.1" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.2" afterPath="$PROJECT_DIR$/target/classes/log/chat.log.2" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.3" afterPath="$PROJECT_DIR$/target/classes/log/chat.log.3" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType$1.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType$2.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType$3.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType$4.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType$4.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType$5.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType$5.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/commands/SendMessage.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/commands/SendMessage.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/controllers/ChatController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/controllers/LoginController.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/UserDAO.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/UserDAO.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/type/jvm/JvmDAOFactory.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/type/jvm/JvmDAOFactory.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/type/jvm/JvmMessageDAO.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/type/jvm/JvmMessageDAO.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/type/jvm/JvmUserDAO.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/type/jvm/JvmUserDAO.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/filters/chat/UserInChat.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/filters/chat/UserInChat.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/filters/login/validate/ValidateUser.class" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/filters/login/validate/ValidateUser.class" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.1" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.1" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.2" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.2" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.3" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.3" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/chat/Model.js" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/chat/Model.js" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/chat/View.js" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/chat/View.js" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/chat/index.html" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/chat/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/index.jsp" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/index.jsp" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SimpleChat_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SimpleChat_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleChat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleChat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/commands/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/commands/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/commands/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/commands/Logout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/commands/SendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/commands/SendMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log/chat.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log/chat.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log/chat.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log/chat.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/chat/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chat/Model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chat/commands/SendMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chat/commands/SendMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/chat.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/chat.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/chat.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/chat.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/commands/SendMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/commands/SendMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-4.0.0.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1214150395">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1" value="1" />
+          <entry key="2" value="1" />
+          <entry key="3" value="1" />
+          <entry key="4" value="1" />
+          <entry key="class" value="1" />
+          <entry key="java" value="6" />
+          <entry key="js" value="3" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="6" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="120" />
+          <entry key="js" value="60" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="120" />
+          <entry key="JavaScript" value="60" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Logout.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chat/commands/Logout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            <state relative-caret-position="340">
+              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,72 +105,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chat/commands/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="20" column="75" lean-forward="true" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
-              <folding />
+            <state relative-caret-position="85">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatController.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controllers/chat/ChatController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParserData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chat/parser/ParserData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleParserData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chat/parser/SimpleParserData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Model.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/Model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/View.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="59" column="36" lean-forward="false" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/index.html">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-              <folding />
+              <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -190,15 +177,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/controllers/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/chat/UserName.java" />
         <option value="$PROJECT_DIR$/src/main/java/chatcommands/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/chatcommands/CommandChat.java" />
@@ -212,7 +193,6 @@
         <option value="$PROJECT_DIR$/src/main/java/datalayer/data/InitializationData.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/data/message/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/data/DynamicData.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/data/dto/InitializationData.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/data/dto/DynamicData.java" />
         <option value="$PROJECT_DIR$/src/main/java/chat/InvokerCommand.java" />
@@ -225,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/chat/style/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/chat/style/st.css" />
-        <option value="$PROJECT_DIR$/src/main/java/chat/commands/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/chat/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/chat/commands/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/chat/commands/Kick.java" />
@@ -233,22 +212,25 @@
         <option value="$PROJECT_DIR$/src/main/java/filters/login/empty/EmptyName.java" />
         <option value="$PROJECT_DIR$/src/main/java/filters/login/validate/ValidateUser.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/chat/in.html" />
-        <option value="$PROJECT_DIR$/src/main/java/chat/commands/SendMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/ChatController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/chat/ChatControllerHTML.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmDAOFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmUserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmMessageDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/chat/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/filters/chat/UserInChat.java" />
         <option value="$PROJECT_DIR$/src/main/java/chat/CommandType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chat/commands/Logout.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/chat/View.js" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/chat/ChatController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chat/commands/SendMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chat/commands/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/chat/Model.js" />
+        <option value="$PROJECT_DIR$/src/main/java/chat/commands/Logout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/chat/ChatController.java" />
       </list>
     </option>
   </component>
@@ -257,6 +239,17 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="simple-chat Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="123" />
@@ -294,21 +287,12 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -533,18 +517,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaTheme" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="saveUser&#9;PSI&#9;JAVA://datalayer.UserDAO#&lt;unnamed&gt;" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541001683204" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -573,79 +558,30 @@
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.82">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Tomcat 7.0.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090" />
@@ -657,14 +593,15 @@
         </artifact>
       </deployment>
       <server-settings>
+        <option name="AJP_PORT" value="1099" />
         <option name="BASE_DIRECTORY_NAME" value="index_jsp_(2)_SimpleChat" />
+        <option name="HTTP_PORT" value="8090" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="9744" />
       </RunnerSettings>
@@ -713,7 +650,8 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="SimpleChat:war exploded" />
         </option>
@@ -736,7 +674,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -752,7 +689,8 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="SimpleChat:war exploded" />
         </option>
@@ -775,7 +713,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -791,7 +728,8 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="SimpleChat:war exploded" />
         </option>
@@ -814,7 +752,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -830,7 +767,8 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="SimpleChat:war exploded" />
         </option>
@@ -853,7 +791,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="2195" />
       </RunnerSettings>
@@ -902,7 +839,8 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="SimpleChat:war exploded" />
         </option>
@@ -913,26 +851,26 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.chat.html" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.82" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (2)" />
+    <list>
+      <item itemvalue="Tomcat Server.index.jsp" />
+      <item itemvalue="Tomcat Server.chat.html" />
+      <item itemvalue="Tomcat Server.index.jsp (1)" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.82" />
+      <item itemvalue="Tomcat Server.index.jsp (2)" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.82" />
-        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.chat.html" />
-        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+      <list>
+        <item itemvalue="Tomcat Server.Tomcat 7.0.82" />
+        <item itemvalue="Tomcat Server.index.jsp (2)" />
+        <item itemvalue="Tomcat Server.index.jsp (1)" />
+        <item itemvalue="Tomcat Server.chat.html" />
+        <item itemvalue="Tomcat Server.index.jsp" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -949,46 +887,48 @@
       <workItem from="1540463426184" duration="4030000" />
       <workItem from="1540467509801" duration="8369000" />
       <workItem from="1540493369800" duration="94642000" />
+      <workItem from="1540999264025" duration="2468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115682000" />
+    <option name="totallyTimeSpent" value="118150000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31023622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25402635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32212582" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32913387" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.12739871" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -997,80 +937,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="16" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar!/javax/servlet/GenericServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="883" column="16" lean-forward="false" selection-start-line="883" selection-start-column="16" selection-end-line="883" selection-end-column="16" />
-          <folding>
-            <element signature="e#37718#37719#0" expanded="false" />
-            <element signature="e#37754#37755#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.jar!/com/fasterxml/jackson/core/Versioned.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="104" column="61" lean-forward="true" selection-start-line="104" selection-start-column="61" selection-end-line="104" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/stream/Nodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="1221" column="0" lean-forward="false" selection-start-line="1221" selection-start-column="0" selection-end-line="1221" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/message/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.2/lombok-1.18.2.jar!/lombok/Getter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/dto/InitializationData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" />
           </folding>
         </state>
       </provider>
@@ -1078,95 +951,47 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/dto/DynamicData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.3.1_jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="9343" column="0" lean-forward="false" selection-start-line="9343" selection-start-column="0" selection-end-line="9343" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chat/InvokerCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.3.1_jquery.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/chat/InvokerCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/message/TypeMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding />
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
-          <caret line="8432" column="13" lean-forward="false" selection-start-line="8432" selection-start-column="13" selection-end-line="8432" selection-end-column="13" />
-          <folding />
+          <caret line="8432" column="13" selection-start-line="8432" selection-start-column="13" selection-end-line="8432" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/style/st.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-714">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar!/javax/servlet/http/HttpServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <marker date="1508079972166" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1508079972166" expanded="false" signature="142:381" ph="..." />
-            <marker date="1508079972166" expanded="true" signature="902:1633" ph="{...}" />
-            <marker date="1508079972166" expanded="true" signature="944:1626" ph="{...}" />
-            <marker date="1508079972166" expanded="false" signature="987:1006" ph=" { " />
-            <marker date="1508079972166" expanded="false" signature="1016:1030" ph=" }" />
-            <marker date="1508079972166" expanded="false" signature="1070:1089" ph=" { " />
-            <marker date="1508079972166" expanded="false" signature="1099:1113" ph=" }" />
-            <marker date="1508079972166" expanded="false" signature="1157:1176" ph=" { " />
-            <marker date="1508079972166" expanded="false" signature="1186:1200" ph=" }" />
-            <marker date="1508079972166" expanded="false" signature="1251:1270" ph=" { " />
-            <marker date="1508079972166" expanded="false" signature="1282:1296" ph=" }" />
-            <marker date="1508079972166" expanded="true" signature="1335:1616" ph="{...}" />
-            <marker date="1508079972166" expanded="false" signature="1760:1771" ph=" { " />
-            <marker date="1508079972166" expanded="false" signature="1783:1789" ph=" }" />
-            <marker date="1508079972166" expanded="true" signature="2328:2346" ph="/**...*/" />
-            <marker date="1508079972166" expanded="false" signature="2897:2908" ph=" { " />
-            <marker date="1508079972166" expanded="false" signature="2938:2944" ph=" }" />
-            <marker date="1508079972166" expanded="false" signature="2988:2999" ph=" { " />
-            <marker date="1508079972166" expanded="false" signature="3011:3017" ph=" }" />
-          </folding>
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1175,59 +1000,25 @@
         <state relative-caret-position="172">
           <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="118" column="12" lean-forward="false" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="245" column="26" lean-forward="false" selection-start-line="245" selection-start-column="26" selection-end-line="245" selection-end-column="26" />
-          <folding>
-            <element signature="e#8380#8381#0" expanded="false" />
-            <element signature="e#8414#8415#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Set.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Objects.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/in.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/in.html" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar!/javax/servlet/ServletRequestWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1235,23 +1026,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/chat/ChatControllerHTML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/chat/ChatControllerHTML.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmUserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="52" column="23" lean-forward="false" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-          <folding />
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1259,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,36 +1048,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmMessageDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding>
-            <element signature="e#649#650#0" expanded="false" />
-            <element signature="e#686#687#0" expanded="false" />
-            <element signature="e#754#755#0" expanded="false" />
-            <element signature="e#809#810#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/DAOFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/StorageType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1304,17 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1323,10 +1077,10 @@
         <state relative-caret-position="120">
           <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#618#619#0" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
+            <element signature="e#506#507#0" />
+            <element signature="e#556#557#0" />
+            <element signature="e#618#619#0" />
+            <element signature="e#665#666#0" />
           </folding>
         </state>
       </provider>
@@ -1334,8 +1088,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1344,7 +1097,7 @@
         <state relative-caret-position="697">
           <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" />
           </folding>
         </state>
       </provider>
@@ -1354,16 +1107,8 @@
         <state relative-caret-position="29">
           <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chat/commands/SendMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1371,15 +1116,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chat/commands/Data.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -1388,16 +1131,16 @@
         <state relative-caret-position="136">
           <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
-            <element signature="e#186#187#0" expanded="false" />
-            <element signature="e#228#229#0" expanded="false" />
-            <element signature="e#309#310#0" expanded="false" />
-            <element signature="e#350#351#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#472#473#0" expanded="false" />
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#604#605#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
-            <element signature="e#726#727#0" expanded="false" />
+            <element signature="e#186#187#0" />
+            <element signature="e#228#229#0" />
+            <element signature="e#309#310#0" />
+            <element signature="e#350#351#0" />
+            <element signature="e#431#432#0" />
+            <element signature="e#472#473#0" />
+            <element signature="e#556#557#0" />
+            <element signature="e#604#605#0" />
+            <element signature="e#683#684#0" />
+            <element signature="e#726#727#0" />
           </folding>
         </state>
       </provider>
@@ -1405,79 +1148,238 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/Tags.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <marker date="1540765946084" expanded="true" signature="76:333" ph="..." />
-            <marker date="1540765946084" expanded="true" signature="209:310" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/chat/ChatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chat/parser/ParserData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chat/parser/SimpleParserData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/View.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="59" column="36" lean-forward="false" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="260">
+          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/Model.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmMessageDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/data/message/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chat/commands/SendMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chat/commands/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chat/commands/Logout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        <state relative-caret-position="340">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chat/commands/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log/chat.log.4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log/chat.log.3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log/chat.log.2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" column="75" lean-forward="true" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
-          <folding />
+        <state relative-caret-position="124">
+          <caret line="10" column="84" lean-forward="true" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/Model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log/chat.log.1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/chat/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/chat/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SimpleChat:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SimpleChat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Java EE 6-Java EE 6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="install" />
   </component>
 </project>

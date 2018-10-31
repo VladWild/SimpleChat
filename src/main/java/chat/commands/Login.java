@@ -14,15 +14,9 @@ import java.io.IOException;
 import java.util.Date;
 
 public class Login implements Command {
-    private static final String LOGIN_MESSAGE = "User \"%s\" is logging in chat";
-
     @Override
     public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO, ObjectMapper mapper) throws IOException {
         String userName = (String) req.getSession().getAttribute(USERNAME);
-
-        Message message = new Message(String.format(LOGIN_MESSAGE, userName),
-                TypeMessage.LOGIN, userName, new Date());
-        messageDAO.addMessage(message);
 
         Message[] messages = messageDAO.getAllMessages();
         String[] users = userDAO.getAllUserNamesExceptIn(userName);

@@ -1,41 +1,23 @@
-2018-10-31 15:05:45,431 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:45,433 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:45,433 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:46,031 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:46,032 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:47,393 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:47,393 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:47,396 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:47,397 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:48,028 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:48,028 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:49,384 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:49,384 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:49,384 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:49,384 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:50,028 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:50,028 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:51,391 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:51,391 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:51,393 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:51,394 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:52,027 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:52,027 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:53,378 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:53,378 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:53,380 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:53,380 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:54,039 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:54,039 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:55,383 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:55,383 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:55,385 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:55,385 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:56,037 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:56,037 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:57,380 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:57,380 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:57,383 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:57,383 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 15:05:58,038 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 15:05:58,038 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
+2018-10-31 18:58:11,328 DEBUG filters.login.empty.EmptyName    - init of filter "Empty Name"
+2018-10-31 18:58:11,330 DEBUG filters.login.validate.ValidateUser - init of filter "Validate User"
+2018-10-31 18:58:11,334 DEBUG filters.login.empty.EmptyPassword - init of filter "Empty Password"
+2018-10-31 18:58:13,551 DEBUG filters.login.empty.EmptyName    - The length userName = "1": 1
+2018-10-31 18:58:13,551 DEBUG filters.login.empty.EmptyName    - Save in request attribute "userName"
+2018-10-31 18:58:13,551 DEBUG filters.login.empty.EmptyName    - Change to empty password filter
+2018-10-31 18:58:13,552 DEBUG filters.login.empty.EmptyPassword - The length password = "1": 1
+2018-10-31 18:58:13,552 DEBUG filters.login.empty.EmptyPassword - Change to empty password filter
+2018-10-31 18:58:13,563 DEBUG filters.login.validate.ValidateUser - Save user1 in DAO
+2018-10-31 18:58:13,563 DEBUG filters.login.validate.ValidateUser - Change to login controller
+2018-10-31 18:58:13,563 DEBUG controllers.LoginController      - Save "1" in Session
+2018-10-31 18:58:13,566 INFO  controllers.LoginController      - User: userName = "1" is input in chat
+2018-10-31 18:58:13,809 DEBUG chat.parser.SimpleParserData     - Get data from request: command=login
+2018-10-31 18:58:13,812 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="login"
+2018-10-31 18:58:15,636 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
+2018-10-31 18:58:15,636 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
+2018-10-31 18:58:16,152 DEBUG chat.parser.SimpleParserData     - Get data from request: command=sendmessage&text=%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2
+2018-10-31 18:58:16,153 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="sendmessage"
+2018-10-31 18:58:16,153 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="text"; values="%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2"
+2018-10-31 18:58:17,636 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
+2018-10-31 18:58:17,636 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
+2018-10-31 18:58:18,519 DEBUG chat.parser.SimpleParserData     - Get data from request: command=logout
+2018-10-31 18:58:18,519 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="logout"

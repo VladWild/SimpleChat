@@ -11,9 +11,9 @@ function Model(uri, update) {
 
     this.init = function(){
         this.initData();
-/*        setInterval(function () {
+        setInterval(function () {
             this.dynamicData();
-        }.bind(this), this.update);*/
+        }.bind(this), this.update);
     }
 }
 

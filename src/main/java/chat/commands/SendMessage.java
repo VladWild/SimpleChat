@@ -26,8 +26,7 @@ public class SendMessage implements Command {
 
         Message[] messages = messageDAO.getAllMessages();
 
-        /*String messagesJson = mapper.writeValueAsString(messages);
-        resp.getWriter().write(messagesJson);*/
-        resp.sendRedirect("/");
+        String messagesJson = mapper.writeValueAsString(messages);
+        resp.getWriter().write(messagesJson);
     }
 }

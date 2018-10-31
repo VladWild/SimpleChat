@@ -16,10 +16,10 @@ http://jakarta.apache.org/log4j/ ">
 
     <appender name="RollingFileAppender" class="org.apache.log4j.RollingFileAppender">
         <param name="Threshold" value="DEBUG"/>
-        <param name="File" value="C:/Users/Lenovo/Documents/IdeaProjects/SimpleChat/src/main/resources/log/chat.log"/>
+        <param name="File" value="D:/Projects/SimpleChat/src/main/resources/log/chat.log"/>
         <param name="append" value="false"/>
-        <param name="MaxFileSize" value="5KB"/>
-        <param name="maxBackupIndex" value="3"/>
+        <param name="MaxFileSize" value="10KB"/>
+        <param name="maxBackupIndex" value="10"/>
         <param name="Encoding" value="UTF-8"/>
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p %-32.69c - %m%n"/>

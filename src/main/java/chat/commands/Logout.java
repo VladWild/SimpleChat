@@ -18,7 +18,7 @@ public class Logout implements Command {
     @Override
     public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO, ObjectMapper mapper) throws IOException {
         String userName = (String) req.getSession().getAttribute(USERNAME);
-        req.getSession().setAttribute(USERNAME, null);
+        req.getSession().invalidate();
 
         Message message = new Message(String.format(LOGOUT_MESSAGE, userName),
                 TypeMessage.LOGIN, userName, new Date());
