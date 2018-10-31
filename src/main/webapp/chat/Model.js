@@ -11,9 +11,9 @@ function Model(uri, update) {
 
     this.init = function(){
         this.initData();
-        setInterval(function () {
+        /*setInterval(function () {
             this.dynamicData();
-        }.bind(this), this.update);
+        }.bind(this), this.update);*/
     }
 }
 
@@ -38,7 +38,9 @@ Model.prototype = {
     },
     sendMessage: function (message) {
         let that = this;
+        console.log(message);
         $.get( this.uri, {command: "sendmessage", text: message}, function (messagesData) {
+            console.log(messagesData);
             let messages = JSON.parse(messagesData);
             that.onSendMessage.notify(messages);
         });

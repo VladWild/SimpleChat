@@ -5,12 +5,13 @@ import datalayer.StorageType;
 import datalayer.UserDAO;
 
 import javax.servlet.*;
+import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/*@WebFilter(filterName = "userInChat", servletNames = {"chat"})*/
-public class UserInChat implements Filter {
+/*@WebFilter(filterName = "userIsInSession", servletNames = "chat")*/
+public class UserIsInSession implements Filter {
     private static final String USERNAME = "username";
 
     private UserDAO userDAO;
@@ -28,7 +29,7 @@ public class UserInChat implements Filter {
 
         String user = (String) request.getSession().getAttribute(USERNAME);
 
-        if (userDAO.isUserNameExists(user)) {
+        if (user == null) {
             filterChain.doFilter(req, resp);
         } else {
             response.sendRedirect("/index.jsp");

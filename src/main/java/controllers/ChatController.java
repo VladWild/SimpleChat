@@ -1,4 +1,4 @@
-package controllers.chat;
+package controllers;
 
 import chat.Command;
 import chat.CommandType;
@@ -12,7 +12,6 @@ import datalayer.StorageType;
 import datalayer.UserDAO;
 import org.apache.log4j.Logger;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -42,8 +41,13 @@ public class ChatController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //req.setCharacterEncoding("UTF-8");
-        //resp.setContentType("text/html; charset=UTF-8");
+        resp.setContentType("text/html; charset=windows-1251");
+
+        //отдаются в callback функцию фронта - ?
+        //resp.sendRedirect("/");
+        //req.getRequestDispatcher("/index.jsp").forward(req, resp);
+
+        System.out.println(" -------------------  " + req.getSession().getAttribute(Command.USERNAME));
 
         try{
             parserData.parse(req);

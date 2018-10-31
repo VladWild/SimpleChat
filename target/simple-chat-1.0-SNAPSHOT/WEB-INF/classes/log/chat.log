@@ -1,23 +1,34 @@
-2018-10-31 18:58:11,328 DEBUG filters.login.empty.EmptyName    - init of filter "Empty Name"
-2018-10-31 18:58:11,330 DEBUG filters.login.validate.ValidateUser - init of filter "Validate User"
-2018-10-31 18:58:11,334 DEBUG filters.login.empty.EmptyPassword - init of filter "Empty Password"
-2018-10-31 18:58:13,551 DEBUG filters.login.empty.EmptyName    - The length userName = "1": 1
-2018-10-31 18:58:13,551 DEBUG filters.login.empty.EmptyName    - Save in request attribute "userName"
-2018-10-31 18:58:13,551 DEBUG filters.login.empty.EmptyName    - Change to empty password filter
-2018-10-31 18:58:13,552 DEBUG filters.login.empty.EmptyPassword - The length password = "1": 1
-2018-10-31 18:58:13,552 DEBUG filters.login.empty.EmptyPassword - Change to empty password filter
-2018-10-31 18:58:13,563 DEBUG filters.login.validate.ValidateUser - Save user1 in DAO
-2018-10-31 18:58:13,563 DEBUG filters.login.validate.ValidateUser - Change to login controller
-2018-10-31 18:58:13,563 DEBUG controllers.LoginController      - Save "1" in Session
-2018-10-31 18:58:13,566 INFO  controllers.LoginController      - User: userName = "1" is input in chat
-2018-10-31 18:58:13,809 DEBUG chat.parser.SimpleParserData     - Get data from request: command=login
-2018-10-31 18:58:13,812 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="login"
-2018-10-31 18:58:15,636 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 18:58:15,636 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 18:58:16,152 DEBUG chat.parser.SimpleParserData     - Get data from request: command=sendmessage&text=%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2
-2018-10-31 18:58:16,153 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="sendmessage"
-2018-10-31 18:58:16,153 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="text"; values="%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2%D1%83%D1%86%D0%B2"
-2018-10-31 18:58:17,636 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-10-31 18:58:17,636 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-10-31 18:58:18,519 DEBUG chat.parser.SimpleParserData     - Get data from request: command=logout
-2018-10-31 18:58:18,519 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="logout"
+2018-10-31 20:33:06,072 DEBUG filters.login.empty.EmptyName    - init of filter "Empty Name"
+2018-10-31 20:33:06,073 DEBUG filters.login.validate.ValidateUser - init of filter "Validate User"
+2018-10-31 20:33:06,077 DEBUG filters.login.empty.EmptyPassword - init of filter "Empty Password"
+2018-10-31 20:33:15,699 DEBUG filters.login.empty.EmptyName    - The length userName = "1": 1
+2018-10-31 20:33:15,699 DEBUG filters.login.empty.EmptyName    - Save in request attribute "userName"
+2018-10-31 20:33:15,699 DEBUG filters.login.empty.EmptyName    - Change to empty password filter
+2018-10-31 20:33:15,699 DEBUG filters.login.empty.EmptyPassword - The length password = "1": 1
+2018-10-31 20:33:15,699 DEBUG filters.login.empty.EmptyPassword - Change to empty password filter
+2018-10-31 20:33:15,709 DEBUG filters.login.validate.ValidateUser - Save user1 in DAO
+2018-10-31 20:33:15,710 DEBUG filters.login.validate.ValidateUser - Change to login controller
+2018-10-31 20:33:15,710 DEBUG controllers.LoginController      - Save "1" in Session
+2018-10-31 20:33:15,713 INFO  controllers.LoginController      - User: userName = "1" is input in chat
+2018-10-31 20:33:15,886 DEBUG chat.parser.SimpleParserData     - Get data from request: command=login
+2018-10-31 20:33:15,888 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="login"
+2018-10-31 20:33:22,673 DEBUG filters.login.empty.EmptyName    - The length userName = "12": 2
+2018-10-31 20:33:22,673 DEBUG filters.login.empty.EmptyName    - Save in request attribute "userName"
+2018-10-31 20:33:22,673 DEBUG filters.login.empty.EmptyName    - Change to empty password filter
+2018-10-31 20:33:22,674 DEBUG filters.login.empty.EmptyPassword - The length password = "1": 1
+2018-10-31 20:33:22,674 DEBUG filters.login.empty.EmptyPassword - Change to empty password filter
+2018-10-31 20:33:22,674 DEBUG filters.login.validate.ValidateUser - Save user12 in DAO
+2018-10-31 20:33:22,674 DEBUG filters.login.validate.ValidateUser - Change to login controller
+2018-10-31 20:33:22,674 DEBUG controllers.LoginController      - Save "12" in Session
+2018-10-31 20:33:22,674 INFO  controllers.LoginController      - User: userName = "12" is input in chat
+2018-10-31 20:33:22,731 DEBUG chat.parser.SimpleParserData     - Get data from request: command=login
+2018-10-31 20:33:22,731 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="login"
+2018-10-31 20:33:33,197 DEBUG chat.parser.SimpleParserData     - Get data from request: command=login
+2018-10-31 20:33:33,197 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="login"
+2018-10-31 20:33:41,727 DEBUG chat.parser.SimpleParserData     - Get data from request: command=kick&kickUserName=1
+2018-10-31 20:33:41,728 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="kick"
+2018-10-31 20:33:41,728 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="kickUserName"; values="1"
+2018-10-31 20:33:44,000 DEBUG chat.parser.SimpleParserData     - Get data from request: command=login
+2018-10-31 20:33:44,001 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="login"
+2018-10-31 20:33:46,137 DEBUG chat.parser.SimpleParserData     - Get data from request: command=login
+2018-10-31 20:33:46,137 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="login"

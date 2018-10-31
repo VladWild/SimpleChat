@@ -18,12 +18,12 @@ public class Logout implements Command {
     @Override
     public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO, ObjectMapper mapper) throws IOException {
         String userName = (String) req.getSession().getAttribute(USERNAME);
+
+        userDAO.removeUserByName(userName);
         req.getSession().invalidate();
 
         Message message = new Message(String.format(LOGOUT_MESSAGE, userName),
                 TypeMessage.LOGIN, userName, new Date());
         messageDAO.addMessage(message);
-
-        userDAO.removeUserByName(userName);
     }
 }
