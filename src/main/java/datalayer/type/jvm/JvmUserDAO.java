@@ -30,7 +30,7 @@ class JvmUserDAO implements UserDAO {
     }
 
     @Override
-    public boolean isNameUsed(String name) {
+    public boolean isUsernameExists(String name) {
         return users.stream()
                 .map(User::getName)
                 .collect(Collectors.toSet())
@@ -43,7 +43,14 @@ class JvmUserDAO implements UserDAO {
     }
 
     @Override
-    public String[] getAllUserNamesExceptLogin(String name) {
+    public void removeUserByName(String name) {
+        users = users.stream()
+                .filter(userName -> !userName.getName().equals(name))
+                .collect(Collectors.toSet());
+    }
+
+    @Override
+    public String[] getAllUserNamesExceptIn(String name) {
         return users.stream().map(User::getName)
                 .filter(userName -> !userName.equals(name))
                 .toArray(String[]::new);

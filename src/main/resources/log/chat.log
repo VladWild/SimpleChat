@@ -1,0 +1,3 @@
+2018-10-31 12:40:30,888 DEBUG filters.login.empty.EmptyName    - init of filter "Empty Name"
+2018-10-31 12:40:30,888 DEBUG filters.login.validate.ValidateUser - init of filter "Validate User"
+2018-10-31 12:40:30,903 DEBUG filters.login.empty.EmptyPassword - init of filter "Empty Password"

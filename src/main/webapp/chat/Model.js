@@ -7,13 +7,12 @@ function Model(uri, update) {
     this.onShowUsers = new EventEmitter();
     this.onSendMessage = new EventEmitter();
     this.onClickUser = new EventEmitter();
-    this.onKickUser = new EventEmitter();
 
     this.init = function(){
         this.initData();
-        setInterval(function () {
+        /*setInterval(function () {
             this.dynamicData();
-        }.bind(this), this.update);
+        }.bind(this), this.update);*/
     }
 }
 
@@ -45,12 +44,13 @@ Model.prototype = {
     },
     clickUserName: function (clickUserName) {
         this.onClickUser.notify(clickUserName);
-        console.log('model');
     },
     kickUser: function (kickUserName) {
         let that = this;
-        $.get( this.uri, {command: "kick", name: kickUserName}, function () {
-            //let
+        $.get( this.uri, {command: "kick", kickUserName: kickUserName}, function (newData) {
+            let data = JSON.parse(newData);
+            that.onShowMessages.notify(data.messages);
+            that.onShowUsers.notify(data.users);
         });
     }
 };

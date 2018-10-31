@@ -1,6 +1,7 @@
 package chat;
 
 import chat.commands.Data;
+import chat.commands.Kick;
 import chat.commands.Login;
 import chat.commands.SendMessage;
 
@@ -22,7 +23,7 @@ public enum CommandType {
     KICK {
         @Override
         protected Command getCommandChat() {
-            return null;
+            return new Kick();
         }
     }, SENDMESSAGE {
         @Override
@@ -41,6 +42,7 @@ public enum CommandType {
     abstract protected Command getCommandChat();
 
     public static Command getCommandChat(HttpServletRequest req){
+        System.out.println(((String) req.getAttribute(COMMAND)).toUpperCase());
         return valueOf(((String) req.getAttribute(COMMAND)).toUpperCase()).getCommandChat();
     }
 }

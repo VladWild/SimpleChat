@@ -2,7 +2,6 @@ package filters.login.empty;
 
 import org.apache.log4j.Logger;
 
-
 import javax.servlet.*;
 import java.io.IOException;
 

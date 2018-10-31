@@ -4,7 +4,7 @@ html, body, #page {
 
 body {
     margin: 0;
-    background: #ff7d00;
+    background: #c5c9c7;
     font-family: sans-serif;
 }
 
@@ -104,15 +104,15 @@ body {
     cursor: pointer;
     font-size: 10pt;
     color: white;
-    background: linear-gradient(to top, #ff8e03, #ff2d03, #ff8e03);
+    background: linear-gradient(to top, #c5c9c7, #a7aba9, #c5c9c7);
 }
 
 .users .kick:hover{
-    background: #ff2d03;
+    background: #a7aba9;
 }
 
 .users .kick:active{
-    background: linear-gradient(to top, #ff2d03, #ff8e03, #ff2d03);
+    background: linear-gradient(to top, #a7aba9, #c5c9c7, #a7aba9);
 }
 
 /*footer*/

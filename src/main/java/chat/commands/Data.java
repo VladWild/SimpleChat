@@ -14,9 +14,10 @@ import java.io.IOException;
 public class Data implements Command {
     @Override
     public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO, ObjectMapper mapper) throws IOException {
-        String userName = (String) req.getSession().getAttribute("username");
+        String userName = (String) req.getSession().getAttribute(USERNAME);
+
         Message[] messages = messageDAO.getAllMessages();
-        String[] users = userDAO.getAllUserNamesExceptLogin(userName);
+        String[] users = userDAO.getAllUserNamesExceptIn(userName);
 
         DynamicData dynamicData = new DynamicData(messages, users);
 

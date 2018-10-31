@@ -13,13 +13,12 @@ import java.io.IOException;
 import java.util.Date;
 
 public class SendMessage implements Command {
-    private static final String KEY_MESSAGE = "text";
-    private static final String KEY_USERNAME = "username";
+    private static final String MESSAGE = "text";
 
     @Override
     public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO, ObjectMapper mapper) throws IOException {
-        String textMessage = (String) req.getAttribute(KEY_MESSAGE);
-        String username = (String) req.getSession().getAttribute(KEY_USERNAME);
+        String textMessage = (String) req.getAttribute(MESSAGE);
+        String username = (String) req.getSession().getAttribute(USERNAME);
 
         Message message = new Message(textMessage,
                 TypeMessage.MASSAGE, username, new Date());

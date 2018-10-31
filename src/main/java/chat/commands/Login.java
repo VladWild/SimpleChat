@@ -18,14 +18,14 @@ public class Login implements Command {
 
     @Override
     public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO, ObjectMapper mapper) throws IOException {
-        String userName = (String) req.getSession().getAttribute("username");
+        String userName = (String) req.getSession().getAttribute(USERNAME);
 
         Message message = new Message(String.format(LOGIN_MESSAGE, userName),
                 TypeMessage.LOGIN, userName, new Date());
         messageDAO.addMessage(message);
 
         Message[] messages = messageDAO.getAllMessages();
-        String[] users = userDAO.getAllUserNamesExceptLogin(userName);
+        String[] users = userDAO.getAllUserNamesExceptIn(userName);
 
         InitializationData initializationData = new InitializationData(userName, messages, users);
 

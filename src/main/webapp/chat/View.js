@@ -30,9 +30,6 @@ function View(model) {
             that.model.onClickUser.subscribe(function (clickUserName) {
                 that.addUserNameInField(clickUserName);
             });
-            that.model.onKickUser.subscribe(function () {
-
-            })
         }
 
         /*добавление событий элементам*/
@@ -48,12 +45,14 @@ function View(model) {
                     that.model.clickUserName(clickUserName);
                 }
                 if (target.tagName === 'SPAN') {
-                    console.log(target.tagName);
-                    console.log(target.getAttribute("aria-valuetext"));
+                    let user = target.getAttribute("aria-valuetext");
+                    that.model.kickUser(user);
+                    console.log(user);
                 }
                 if (target.tagName === 'BUTTON'){
-                    console.log(target.tagName);
-                    console.log(target.getAttribute("aria-label"));
+                    let user = target.getAttribute("aria-label");
+                    that.model.kickUser(user);
+                    console.log(user);
                 }
             };
         }

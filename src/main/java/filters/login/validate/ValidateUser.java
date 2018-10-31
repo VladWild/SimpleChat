@@ -38,7 +38,7 @@ public class ValidateUser implements Filter {
             filterChain.doFilter(req, resp);
         } else {
             //проверить введеный userName на наличие
-            if (userDAO.isNameUsed(user.getName())){
+            if (userDAO.isUsernameExists(user.getName())){
                 //выводим ошибку
                 logger.debug("Save in request attribute error of empty password");
                 req.setAttribute("passwordError", PASSWORD_VALIDATE_ERROR);
