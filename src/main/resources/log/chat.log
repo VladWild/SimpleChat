@@ -1,25 +1,7 @@
-2018-10-31 20:36:48,989 DEBUG filters.login.empty.EmptyName    - init of filter "Empty Name"
-2018-10-31 20:36:48,991 DEBUG filters.login.validate.ValidateUser - init of filter "Validate User"
-2018-10-31 20:36:48,995 DEBUG filters.login.empty.EmptyPassword - init of filter "Empty Password"
-2018-10-31 20:36:59,180 DEBUG filters.login.empty.EmptyName    - The length userName = "1": 1
-2018-10-31 20:36:59,180 DEBUG filters.login.empty.EmptyName    - Save in request attribute "userName"
-2018-10-31 20:36:59,180 DEBUG filters.login.empty.EmptyName    - Change to empty password filter
-2018-10-31 20:36:59,181 DEBUG filters.login.empty.EmptyPassword - The length password = "1": 1
-2018-10-31 20:36:59,181 DEBUG filters.login.empty.EmptyPassword - Change to empty password filter
-2018-10-31 20:36:59,189 DEBUG filters.login.validate.ValidateUser - Save user1 in DAO
-2018-10-31 20:36:59,189 DEBUG filters.login.validate.ValidateUser - Change to login controller
-2018-10-31 20:36:59,189 DEBUG controllers.LoginController      - Save "1" in Session
-2018-10-31 20:36:59,194 INFO  controllers.LoginController      - User: userName = "1" is input in chat
-2018-10-31 20:36:59,359 DEBUG chat.parser.SimpleParserData     - Get data from request: command=login
-2018-10-31 20:36:59,361 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="login"
-2018-10-31 20:37:06,705 DEBUG filters.login.empty.EmptyName    - The length userName = "12": 2
-2018-10-31 20:37:06,705 DEBUG filters.login.empty.EmptyName    - Save in request attribute "userName"
-2018-10-31 20:37:06,706 DEBUG filters.login.empty.EmptyName    - Change to empty password filter
-2018-10-31 20:37:06,706 DEBUG filters.login.empty.EmptyPassword - The length password = "1": 1
-2018-10-31 20:37:06,706 DEBUG filters.login.empty.EmptyPassword - Change to empty password filter
-2018-10-31 20:37:06,706 DEBUG filters.login.validate.ValidateUser - Save user12 in DAO
-2018-10-31 20:37:06,706 DEBUG filters.login.validate.ValidateUser - Change to login controller
-2018-10-31 20:37:06,706 DEBUG controllers.LoginController      - Save "12" in Session
-2018-10-31 20:37:06,707 INFO  controllers.LoginController      - User: userName = "12" is input in chat
-2018-10-31 20:37:06,760 DEBUG chat.parser.SimpleParserData     - Get data from request: command=login
-2018-10-31 20:37:06,761 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="login"
+2018-11-01 21:28:09,197 DEBUG validation.UserValidate          - Username is not empty: 1
+2018-11-01 21:28:09,197 DEBUG validation.UserValidate          - Password is not empty: 1
+2018-11-01 21:28:09,207 DEBUG validation.UserValidate          - Username and password is validate: User{name='1', password='1'}
+2018-11-01 21:28:09,207 DEBUG controllers.LoginController      - Save user in DAO: User{name='1', password='1'}
+2018-11-01 21:28:09,207 DEBUG controllers.LoginController      - Save user in request: User{name='1', password='1'}
+2018-11-01 21:28:09,208 DEBUG controllers.LoginController      - Save message logging user: User{name='1', password='1'}
+2018-11-01 21:28:09,211 INFO  controllers.LoginController      - User is logging in chat: User{name='1', password='1'}

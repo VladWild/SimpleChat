@@ -4,7 +4,7 @@ import chat.Command;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import datalayer.MessageDAO;
 import datalayer.UserDAO;
-import datalayer.data.dto.DynamicData;
+import dto.DynamicData;
 import datalayer.data.message.Message;
 import datalayer.data.message.TypeMessage;
 

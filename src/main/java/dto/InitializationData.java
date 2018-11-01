@@ -1,4 +1,4 @@
-package datalayer.data.dto;
+package dto;
 
 import datalayer.data.message.Message;
 import lombok.Getter;

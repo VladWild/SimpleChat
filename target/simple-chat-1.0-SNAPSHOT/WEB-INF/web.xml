@@ -10,36 +10,6 @@
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 
-    <!--filters-->
-    <!--login-->
-    <!--Empty Name-->
-    <filter>
-        <filter-name>emptyName</filter-name>
-        <filter-class>filters.login.empty.EmptyName</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>emptyName</filter-name>
-        <servlet-name>login</servlet-name>
-    </filter-mapping>
-    <!--Empty Password-->
-    <filter>
-        <filter-name>emptyPassword</filter-name>
-        <filter-class>filters.login.empty.EmptyPassword</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>emptyPassword</filter-name>
-        <servlet-name>login</servlet-name>
-    </filter-mapping>
-    <!--Validate User-->
-    <filter>
-        <filter-name>validateUser</filter-name>
-        <filter-class>filters.login.validate.ValidateUser</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>validateUser</filter-name>
-        <servlet-name>login</servlet-name>
-    </filter-mapping>
-
 </web-app>
 
 

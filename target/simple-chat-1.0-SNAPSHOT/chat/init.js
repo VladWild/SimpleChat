@@ -4,7 +4,7 @@ const uri = url + urn;
 
 const update = 2000;
 
-let model = new Model(uri, update);
+let model = new Model(url, uri, update);
 let view = new View(model);
 
 view.init();

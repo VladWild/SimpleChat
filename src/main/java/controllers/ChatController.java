@@ -47,7 +47,7 @@ public class ChatController extends HttpServlet {
         //resp.sendRedirect("/");
         //req.getRequestDispatcher("/index.jsp").forward(req, resp);
 
-        System.out.println(" -------------------  " + req.getSession().getAttribute(Command.USERNAME));
+        //resp.sendError(HttpServletResponse.SC_FORBIDDEN);
 
         try{
             parserData.parse(req);

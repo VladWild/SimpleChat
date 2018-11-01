@@ -30,3 +30,5 @@ public class SendMessage implements Command {
         resp.getWriter().write(messagesJson);
     }
 }
+
+
