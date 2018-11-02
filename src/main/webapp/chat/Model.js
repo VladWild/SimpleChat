@@ -9,7 +9,6 @@ function Model(url, uri, update) {
     this.onShowUsers = new EventEmitter();
     this.onSendMessage = new EventEmitter();
     this.onClickUser = new EventEmitter();
-    this.onClickLogout = new EventEmitter();
 
     this.init = function () {
         this.initData();
@@ -41,12 +40,6 @@ Model.prototype = {
         });
     },
     dynamicData: function () {
-        /*let that = this;
-        $.get(this.uri, {command: "data"}, function (dynamicData) {
-            let data = JSON.parse(dynamicData);
-            that.onShowMessages.notify(data.messages);
-            that.onShowUsers.notify(data.users);
-        });*/
         let that = this;
         $.ajax({
             url: this.uri,
@@ -57,33 +50,25 @@ Model.prototype = {
                     $(location).attr('href', that.url);
                 }
             },
-            success: function (initData) {
-                let data = JSON.parse(initData);
-                that.onShowUserName.notify(data.userName);
+            success: function (dynamicData) {
+                let data = JSON.parse(dynamicData);
                 that.onShowMessages.notify(data.messages);
                 that.onShowUsers.notify(data.users);
             }
         });
     },
     sendMessage: function (message) {
-        /*console.log(message);
-        $.get(this.uri, {command: "sendmessage", text: message}, function (messagesData) {
-            //that.validate.response(this.url, messagesData);
-            let messages = JSON.parse(messagesData);
-            that.onSendMessage.notify(messages);
-        });*/
-
         let that = this;
         $.ajax({
             url: this.uri,
             data: {command: "sendmessage", text: message},
-            type: 'get',
+            type: 'post',
             error: function(XMLHttpRequest){
                 if (XMLHttpRequest.status === 401) {
                     $(location).attr('href', that.url);
                 }
             },
-            success: function (initData) {
+            success: function (messagesData) {
                 let messages = JSON.parse(messagesData);
                 that.onSendMessage.notify(messages);
             }
@@ -93,35 +78,24 @@ Model.prototype = {
         this.onClickUser.notify(clickUserName);
     },
     kickUser: function (kickUserName) {
-        /*$.get(this.uri, {command: "kick", kickUserName: kickUserName}, function (newData) {
-            //that.validate.response(this.url, newData);
-            let data = JSON.parse(newData);
-            that.onShowMessages.notify(data.messages);
-            that.onShowUsers.notify(data.users);
-        });*/
-
         let that = this;
         $.ajax({
             url: this.uri,
-            data: {command: "sendmessage", kickUserName: kickUserName},
-            type: 'get',
+            data: {command: "kick", kickUserName: kickUserName},
+            type: 'post',
             error: function(XMLHttpRequest){
                 if (XMLHttpRequest.status === 401) {
                     $(location).attr('href', that.url);
                 }
             },
             success: function (initData) {
-                let data = JSON.parse(newData);
+                let data = JSON.parse(initData);
                 that.onShowMessages.notify(data.messages);
-                that.onShowUsers.notify(data.users);;
+                that.onShowUsers.notify(data.users);
             }
         });
     },
     logout: function () {
-        /*$.get(this.uri, {command: "logout"}/!*, function (urn) {
-            that.validate.response(this.url, urn);
-        }*!/);*/
-
         let that = this;
         $.ajax({
             url: this.uri,

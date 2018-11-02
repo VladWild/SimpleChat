@@ -1,8 +1,11 @@
 package datalayer.data.message;
 
+import lombok.ToString;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+@ToString
 public class Message {
     private static final String FORMAT = "hh:mm:ss";
     private static final SimpleDateFormat formatDate = new SimpleDateFormat(FORMAT);

@@ -1,5 +1,8 @@
 package datalayer.data;
 
+import lombok.ToString;
+
+@ToString
 public class User {
     private String name;
     private String password;
@@ -33,13 +36,5 @@ public class User {
         int result = name.hashCode();
         result = 31 * result + password.hashCode();
         return result;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", password='" + password + '\'' +
-                '}';
     }
 }

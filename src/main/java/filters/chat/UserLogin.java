@@ -3,15 +3,17 @@ package filters.chat;
 import datalayer.DAOFactory;
 import datalayer.StorageType;
 import datalayer.UserDAO;
+import datalayer.data.User;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Objects;
 
-/*@WebFilter(filterName = "userIsInSession", servletNames = "chat")*/
-public class UserIsInSession implements Filter {
+@WebFilter(filterName = "userLogin", servletNames = "chat")
+public class UserLogin implements Filter {
     private static final String USERNAME = "username";
 
     private UserDAO userDAO;
@@ -27,12 +29,18 @@ public class UserIsInSession implements Filter {
         HttpServletRequest request = (HttpServletRequest) req;
         HttpServletResponse response = (HttpServletResponse) resp;
 
-        String user = (String) request.getSession().getAttribute(USERNAME);
+        Object user = request.getSession().getAttribute(USERNAME);
 
-        if (user == null) {
-            filterChain.doFilter(req, resp);
+        if (Objects.isNull(user)) {
+            response.sendError(HttpServletResponse.SC_UNAUTHORIZED);
         } else {
-            response.sendRedirect("/index.jsp");
+            String name = ((User) user).getName();
+
+            if (userDAO.isLoginByName(name)){
+                filterChain.doFilter(req, resp);
+            } else {
+                response.sendError(HttpServletResponse.SC_UNAUTHORIZED);
+            }
         }
     }
 }

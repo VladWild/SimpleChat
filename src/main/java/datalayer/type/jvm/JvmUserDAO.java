@@ -30,6 +30,11 @@ class JvmUserDAO implements UserDAO {
     }
 
     @Override
+    public synchronized boolean isLoginByName(String name) {
+        return users.stream().map(User::getName).collect(Collectors.toSet()).contains(name);
+    }
+
+    @Override
     public synchronized boolean isUserNameExists(String name) {
         return users.stream()
                 .map(User::getName)

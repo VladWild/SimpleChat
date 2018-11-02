@@ -38,8 +38,11 @@ public enum CommandType {
 
     abstract protected Command getCommandChat();
 
-    public static Command getCommandChat(HttpServletRequest req){
-        System.out.println(((String) req.getAttribute(COMMAND)).toUpperCase());
-        return valueOf(((String) req.getAttribute(COMMAND)).toUpperCase()).getCommandChat();
+    public static CommandType getTypeCommandByRequest(HttpServletRequest request){
+        return valueOf((request.getParameter(COMMAND)).toUpperCase());
+    }
+
+    public static Command getCommandChat(CommandType commandType){
+        return commandType.getCommandChat();
     }
 }

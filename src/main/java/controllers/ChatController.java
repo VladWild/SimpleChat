@@ -2,8 +2,8 @@ package controllers;
 
 import chat.Command;
 import chat.CommandType;
-import chat.parser.ParserData;
-import chat.parser.SimpleParserData;
+import chat.parsers.ParserDTO;
+import chat.parsers.SendMessageParserDTO;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import datalayer.DAOFactory;
@@ -24,7 +24,7 @@ public class ChatController extends HttpServlet {
     private MessageDAO messageDAO;
     private UserDAO userDAO;
 
-    private ParserData parserData;
+    private ParserDTO parserData;
     private ObjectMapper mapper;
 
     private static final Logger logger = Logger.getLogger(ChatController.class);
@@ -35,13 +35,14 @@ public class ChatController extends HttpServlet {
         userDAO = daoFactory.getUserDAO();
         messageDAO = daoFactory.getMessageDAO();
 
-        parserData = new SimpleParserData();
+        parserData = new SendMessageParserDTO();
         mapper = new ObjectMapper();
     }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html; charset=windows-1251");
+        //req.setCharacterEncoding("UTF-8");
+        resp.setContentType("text/html; charset=UTF-8");
 
         //отдаются в callback функцию фронта - ?
         //resp.sendRedirect("/");
@@ -50,9 +51,12 @@ public class ChatController extends HttpServlet {
         //resp.sendError(HttpServletResponse.SC_FORBIDDEN);
 
         try{
-            parserData.parse(req);
+            CommandType commandType = CommandType.getTypeCommandByRequest(req);
 
-            Command command = CommandType.getCommandChat(req);
+            logger.info("Type of command: " + commandType);
+            Command command = CommandType.getCommandChat(commandType);
+
+            logger.info("Execute of command: " + commandType);
             command.execute(req, resp, userDAO, messageDAO, mapper);
         } catch (IllegalArgumentException e){
             logger.error("Requested unknown command: " + e.toString());
@@ -61,5 +65,14 @@ public class ChatController extends HttpServlet {
         }
     }
 
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        doGet(req, resp);
+    }
+
+    @Override
+    protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        doGet(req, resp);
+    }
 }
 

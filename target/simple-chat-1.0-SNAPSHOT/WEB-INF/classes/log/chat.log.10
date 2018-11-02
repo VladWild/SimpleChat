@@ -1,92 +1,14 @@
-2018-11-01 14:02:19,312 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:19,313 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:20,419 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:20,419 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:21,312 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:21,313 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:22,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:22,418 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:23,312 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:23,312 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:24,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:24,418 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:25,314 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:25,314 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:26,420 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:26,420 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:27,314 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:27,314 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:28,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:28,418 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:29,314 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:29,314 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:30,416 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:30,417 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:31,312 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:31,312 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:32,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:32,418 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:33,312 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:33,312 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:34,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:34,419 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:35,313 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:35,314 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:36,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:36,419 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:37,313 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:37,314 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:38,419 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:38,419 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:39,313 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:39,313 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:40,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:40,418 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:41,313 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:41,313 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:42,419 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:42,419 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:43,312 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:43,312 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:44,419 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:44,419 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:45,313 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:45,313 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:46,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:46,418 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:47,314 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:47,314 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:48,417 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:48,417 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:49,312 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:49,312 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:50,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:50,418 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:51,314 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:51,314 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:52,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:52,418 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:53,312 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:53,312 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:54,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:54,418 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:55,312 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:55,312 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:56,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:56,418 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:57,313 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:57,313 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:58,419 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:58,420 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:02:59,312 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:02:59,312 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:03:00,418 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:03:00,418 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:03:01,314 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:03:01,314 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:03:02,419 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:03:02,420 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:03:03,312 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:03:03,312 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
-2018-11-01 14:03:04,420 DEBUG chat.parser.SimpleParserData     - Get data from request: command=data
-2018-11-01 14:03:04,420 DEBUG chat.parser.SimpleParserData     - Set in request attributes: key ="command"; values="data"
+2018-11-02 16:06:19,542 DEBUG chat.commands.Data               - Messages data in JSON format for output: {"messages":[{"text":"User \"1\" is logging in chat","type":"LOGIN","userName":"1","date":"04:03:09"},{"text":"User \"2\" is logging in chat","type":"LOGIN","userName":"2","date":"04:03:14"},{"text":"gfbvfgbgfb","type":"MASSAGE","userName":"1","date":"04:03:15"},{"text":"вапмвамваммава","type":"MASSAGE","userName":"1","date":"04:03:19"},{"text":"кепкпкепкепкепкепкеп","type":"MASSAGE","userName":"1","date":"04:03:40"},{"text":"сввысвысвамвам","type":"MASSAGE","userName":"1","date":"04:05:00"},{"text":"вамвамвамвам","type":"MASSAGE","userName":"1","date":"04:05:12"},{"text":"мвамвамвамвамвамвамвамвамвамвам","type":"MASSAGE","userName":"2","date":"04:05:17"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:18"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:19"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:21"},{"text":"амвамвамвамвамвам","type":"MASSAGE","userName":"2","date":"04:05:23"},{"text":"@1 амвамвамвам","type":"MASSAGE","userName":"2","date":"04:05:25"},{"text":"@2 вамвамвамвам","type":"MASSAGE","userName":"1","date":"04:05:40"},{"text":"@2 авмвамвамвам","type":"MASSAGE","userName":"1","date":"04:05:44"}],"users":["2"]}
+2018-11-02 16:06:20,317 INFO  controllers.ChatController       - Type of command: DATA
+2018-11-02 16:06:20,318 INFO  controllers.ChatController       - Execute of command: DATA
+2018-11-02 16:06:20,318 DEBUG chat.commands.Data               - Get user from current session: User(name=2, password=1)
+2018-11-02 16:06:20,318 DEBUG chat.commands.Data               - Get messages from DAO: Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=04:03:09)Message(text=User "2" is logging in chat, type=LOGIN, userName=2, date=04:03:14)Message(text=gfbvfgbgfb, type=MASSAGE, userName=1, date=04:03:15)Message(text=вапмвамваммава, type=MASSAGE, userName=1, date=04:03:19)Message(text=кепкпкепкепкепкепкеп, type=MASSAGE, userName=1, date=04:03:40)Message(text=сввысвысвамвам, type=MASSAGE, userName=1, date=04:05:00)Message(text=вамвамвамвам, type=MASSAGE, userName=1, date=04:05:12)Message(text=мвамвамвамвамвамвамвамвамвамвам, type=MASSAGE, userName=2, date=04:05:17)Message(text=, type=MASSAGE, userName=2, date=04:05:18)Message(text=, type=MASSAGE, userName=2, date=04:05:19)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:21)Message(text=амвамвамвамвамвам, type=MASSAGE, userName=2, date=04:05:23)Message(text=@1 амвамвамвам, type=MASSAGE, userName=2, date=04:05:25)Message(text=@2 вамвамвамвам, type=MASSAGE, userName=1, date=04:05:40)Message(text=@2 авмвамвамвам, type=MASSAGE, userName=1, date=04:05:44)
+2018-11-02 16:06:20,318 DEBUG chat.commands.Data               - Get all users for "2": 1
+2018-11-02 16:06:20,318 DEBUG chat.commands.Data               - Create "DynamicData" DTO: DynamicData(messages=[Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=04:03:09), Message(text=User "2" is logging in chat, type=LOGIN, userName=2, date=04:03:14), Message(text=gfbvfgbgfb, type=MASSAGE, userName=1, date=04:03:15), Message(text=вапмвамваммава, type=MASSAGE, userName=1, date=04:03:19), Message(text=кепкпкепкепкепкепкеп, type=MASSAGE, userName=1, date=04:03:40), Message(text=сввысвысвамвам, type=MASSAGE, userName=1, date=04:05:00), Message(text=вамвамвамвам, type=MASSAGE, userName=1, date=04:05:12), Message(text=мвамвамвамвамвамвамвамвамвамвам, type=MASSAGE, userName=2, date=04:05:17), Message(text=, type=MASSAGE, userName=2, date=04:05:18), Message(text=, type=MASSAGE, userName=2, date=04:05:19), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:21), Message(text=амвамвамвамвамвам, type=MASSAGE, userName=2, date=04:05:23), Message(text=@1 амвамвамвам, type=MASSAGE, userName=2, date=04:05:25), Message(text=@2 вамвамвамвам, type=MASSAGE, userName=1, date=04:05:40), Message(text=@2 авмвамвамвам, type=MASSAGE, userName=1, date=04:05:44)], users=[1])
+2018-11-02 16:06:20,318 DEBUG chat.commands.Data               - Messages data in JSON format for output: {"messages":[{"text":"User \"1\" is logging in chat","type":"LOGIN","userName":"1","date":"04:03:09"},{"text":"User \"2\" is logging in chat","type":"LOGIN","userName":"2","date":"04:03:14"},{"text":"gfbvfgbgfb","type":"MASSAGE","userName":"1","date":"04:03:15"},{"text":"вапмвамваммава","type":"MASSAGE","userName":"1","date":"04:03:19"},{"text":"кепкпкепкепкепкепкеп","type":"MASSAGE","userName":"1","date":"04:03:40"},{"text":"сввысвысвамвам","type":"MASSAGE","userName":"1","date":"04:05:00"},{"text":"вамвамвамвам","type":"MASSAGE","userName":"1","date":"04:05:12"},{"text":"мвамвамвамвамвамвамвамвамвамвам","type":"MASSAGE","userName":"2","date":"04:05:17"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:18"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:19"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:20"},{"text":"","type":"MASSAGE","userName":"2","date":"04:05:21"},{"text":"амвамвамвамвамвам","type":"MASSAGE","userName":"2","date":"04:05:23"},{"text":"@1 амвамвамвам","type":"MASSAGE","userName":"2","date":"04:05:25"},{"text":"@2 вамвамвамвам","type":"MASSAGE","userName":"1","date":"04:05:40"},{"text":"@2 авмвамвамвам","type":"MASSAGE","userName":"1","date":"04:05:44"}],"users":["1"]}
+2018-11-02 16:06:21,528 INFO  controllers.ChatController       - Type of command: DATA
+2018-11-02 16:06:21,528 INFO  controllers.ChatController       - Execute of command: DATA
+2018-11-02 16:06:21,528 DEBUG chat.commands.Data               - Get user from current session: User(name=1, password=1)
+2018-11-02 16:06:21,528 DEBUG chat.commands.Data               - Get messages from DAO: Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=04:03:09)Message(text=User "2" is logging in chat, type=LOGIN, userName=2, date=04:03:14)Message(text=gfbvfgbgfb, type=MASSAGE, userName=1, date=04:03:15)Message(text=вапмвамваммава, type=MASSAGE, userName=1, date=04:03:19)Message(text=кепкпкепкепкепкепкеп, type=MASSAGE, userName=1, date=04:03:40)Message(text=сввысвысвамвам, type=MASSAGE, userName=1, date=04:05:00)Message(text=вамвамвамвам, type=MASSAGE, userName=1, date=04:05:12)Message(text=мвамвамвамвамвамвамвамвамвамвам, type=MASSAGE, userName=2, date=04:05:17)Message(text=, type=MASSAGE, userName=2, date=04:05:18)Message(text=, type=MASSAGE, userName=2, date=04:05:19)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:20)Message(text=, type=MASSAGE, userName=2, date=04:05:21)Message(text=амвамвамвамвамвам, type=MASSAGE, userName=2, date=04:05:23)Message(text=@1 амвамвамвам, type=MASSAGE, userName=2, date=04:05:25)Message(text=@2 вамвамвамвам, type=MASSAGE, userName=1, date=04:05:40)Message(text=@2 авмвамвамвам, type=MASSAGE, userName=1, date=04:05:44)
+2018-11-02 16:06:21,528 DEBUG chat.commands.Data               - Get all users for "1": 2
+2018-11-02 16:06:21,528 DEBUG chat.commands.Data               - Create "DynamicData" DTO: DynamicData(messages=[Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=04:03:09), Message(text=User "2" is logging in chat, type=LOGIN, userName=2, date=04:03:14), Message(text=gfbvfgbgfb, type=MASSAGE, userName=1, date=04:03:15), Message(text=вапмвамваммава, type=MASSAGE, userName=1, date=04:03:19), Message(text=кепкпкепкепкепкепкеп, type=MASSAGE, userName=1, date=04:03:40), Message(text=сввысвысвамвам, type=MASSAGE, userName=1, date=04:05:00), Message(text=вамвамвамвам, type=MASSAGE, userName=1, date=04:05:12), Message(text=мвамвамвамвамвамвамвамвамвамвам, type=MASSAGE, userName=2, date=04:05:17), Message(text=, type=MASSAGE, userName=2, date=04:05:18), Message(text=, type=MASSAGE, userName=2, date=04:05:19), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:20), Message(text=, type=MASSAGE, userName=2, date=04:05:21), Message(text=амвамвамвамвамвам, type=MASSAGE, userName=2, date=04:05:23), Message(text=@1 амвамвамвам, type=MASSAGE, userName=2, date=04:05:25), Message(text=@2 вамвамвамвам, type=MASSAGE, userName=1, date=04:05:40), Message(text=@2 авмвамвамвам, type=MASSAGE, userName=1, date=04:05:44)], users=[2])
