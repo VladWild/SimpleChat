@@ -24,7 +24,6 @@ public class ChatController extends HttpServlet {
     private MessageDAO messageDAO;
     private UserDAO userDAO;
 
-    private ParserDTO parserData;
     private ObjectMapper mapper;
 
     private static final Logger logger = Logger.getLogger(ChatController.class);
@@ -35,20 +34,12 @@ public class ChatController extends HttpServlet {
         userDAO = daoFactory.getUserDAO();
         messageDAO = daoFactory.getMessageDAO();
 
-        parserData = new SendMessageParserDTO();
         mapper = new ObjectMapper();
     }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //req.setCharacterEncoding("UTF-8");
         resp.setContentType("text/html; charset=UTF-8");
-
-        //отдаются в callback функцию фронта - ?
-        //resp.sendRedirect("/");
-        //req.getRequestDispatcher("/index.jsp").forward(req, resp);
-
-        //resp.sendError(HttpServletResponse.SC_FORBIDDEN);
 
         try{
             CommandType commandType = CommandType.getTypeCommandByRequest(req);
@@ -70,9 +61,5 @@ public class ChatController extends HttpServlet {
         doGet(req, resp);
     }
 
-    @Override
-    protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doGet(req, resp);
-    }
 }
 

@@ -7,100 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ab4777f-ad6e-45ce-aad2-b9c3a985b76f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chat/parsers/KickParserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chat/parsers/SendMessageParserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/input/KickUserData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/input/MassageData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/CommandType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/commands/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/commands/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/commands/Kick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/commands/Kick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/commands/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/commands/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/commands/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/commands/Logout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/commands/SendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/commands/SendMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/parser/ParserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/parsers/ParserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/parser/SimpleParserData.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/data/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/data/message/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/DynamicData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/output/DynamicData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/InitializationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/output/InitializationData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/filters/chat/UserIsInSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filters/chat/UserLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log/chat.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log/chat.log.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chat/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chat/Model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chat/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chat/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chat/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chat/style/st.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chat/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/CommandType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chat/CommandType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/commands/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chat/commands/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/commands/Kick.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chat/commands/Kick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/commands/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chat/commands/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/commands/SendMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chat/commands/SendMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/parser/ParserData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chat/parser/SimpleParserData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/ChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/ChatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/data/message/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/data/message/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datalayer/type/jvm/JvmUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datalayer/type/jvm/JvmUserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dto/DynamicData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dto/InitializationData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/filters/chat/UserIsInSession.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/chat.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/chat.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/chat.log.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/chat.log.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/chat.log.4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log/chat.log.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/CommandType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/commands/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/commands/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/commands/Kick.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/commands/Kick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/commands/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/commands/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/commands/SendMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/commands/SendMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/parser/ParserData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/chat/parser/SimpleParserData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/controllers/ChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/controllers/ChatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/data/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/data/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/data/message/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/data/message/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/type/jvm/JvmUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/datalayer/type/jvm/JvmUserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/dto/DynamicData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/dto/InitializationData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/filters/chat/UserIsInSession.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log/chat.log.9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/WEB-INF/classes/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/chat/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/chat/Model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/chat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/chat/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simple-chat-1.0-SNAPSHOT/chat/style/st.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -131,7 +39,7 @@
           <entry key="class" value="9" />
           <entry key="css" value="1" />
           <entry key="html" value="3" />
-          <entry key="java" value="135" />
+          <entry key="java" value="136" />
           <entry key="js" value="16" />
           <entry key="jsp" value="1" />
           <entry key="log" value="6" />
@@ -144,7 +52,7 @@
           <entry key="CLASS" value="9" />
           <entry key="CSS" value="1" />
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="135" />
+          <entry key="JAVA" value="136" />
           <entry key="JSP" value="1" />
           <entry key="JavaScript" value="16" />
           <entry key="PLAIN_TEXT" value="19" />
@@ -172,19 +80,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/StorageType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-              <folding>
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/datalayer/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -257,14 +152,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/filters/chat/UserLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+            <state relative-caret-position="390">
+              <caret line="41" column="72" lean-forward="true" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ChatController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="42" column="113" selection-start-line="42" selection-start-column="113" selection-end-line="42" selection-end-column="113" />
             </state>
           </provider>
         </entry>
@@ -365,12 +269,12 @@
         <option value="$PROJECT_DIR$/src/main/java/datalayer/type/jvm/JvmUserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/filters/chat/UserLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/chat/commands/Data.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controllers/ChatController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/chat/Model.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/chat/init.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/chat/listener/EventEmitter.js" />
         <option value="$PROJECT_DIR$/src/main/java/chat/commands/Logout.java" />
         <option value="$PROJECT_DIR$/src/main/java/chat/parsers/ParserDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllers/ChatController.java" />
       </list>
     </option>
   </component>
@@ -641,7 +545,7 @@
     <property name="SearchEverywhereHistoryKey" value="getSession&#9;PSI&#9;JAVA://javax.jms.ServerSession#getSession&#10;saveUser&#9;PSI&#9;JAVA://datalayer.UserDAO#&lt;unnamed&gt;" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541164362648" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541486749068" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaTheme" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
@@ -1013,13 +917,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171577000" />
+    <option name="totallyTimeSpent" value="172373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1029,7 +933,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32212582" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32212582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1296,13 +1200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ChatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -1441,11 +1338,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/filters/chat/UserLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+        <state relative-caret-position="390">
+          <caret line="41" column="72" lean-forward="true" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="42" column="113" selection-start-line="42" selection-start-column="113" selection-end-line="42" selection-end-column="113" />
         </state>
       </provider>
     </entry>
