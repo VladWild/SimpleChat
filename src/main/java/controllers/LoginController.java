@@ -47,6 +47,7 @@ public class LoginController extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //get dto
         if (userValidation.isValidate(req)){
             String userName = req.getParameter(USERNAME);
             String password = req.getParameter(PASSWORD);

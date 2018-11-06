@@ -9,7 +9,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>simple-chat Maven Webapp</name>
+  <name>simple-chat</name>
   <url>http://www.example.com</url>
 
   <build>
