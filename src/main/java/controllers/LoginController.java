@@ -4,12 +4,16 @@ import datalayer.DAOFactory;
 import datalayer.MessageDAO;
 import datalayer.StorageType;
 import datalayer.UserDAO;
+import datalayer.data.LoginError;
 import datalayer.data.User;
-import datalayer.data.message.Message;
-import datalayer.data.message.TypeMessage;
+import datalayer.data.massage.Message;
+import datalayer.data.massage.TypeMessage;
+import dto.login.LoginData;
 import org.apache.log4j.Logger;
+import parsers.ParserDTO;
+import parsers.login.LoginFormParserDTO;
+import validation.UserValidator;
 import validation.Validation;
-import validation.UserValidate;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,16 +22,19 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Date;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @WebServlet(name = "login", urlPatterns = "/login")
 public class LoginController extends HttpServlet {
     private static final String LOGIN_MESSAGE = "User \"%s\" is logging in chat";
 
     private static final String PAGE_CHAT = "/chat/index.html";
-    private static final String PAGE_LOGIN = "/index.jsp";
+    private static final String PAGE_LOGIN = "/login.jsp";
 
     private static final String USERNAME = "username";
-    private static final String PASSWORD = "password";
+
+    private static ParserDTO loginFormParserDTO = new LoginFormParserDTO();
 
     private MessageDAO messageDAO;
     private UserDAO userDAO;
@@ -42,17 +49,17 @@ public class LoginController extends HttpServlet {
         messageDAO = daoFactory.getMessageDAO();
         userDAO = daoFactory.getUserDAO();
 
-        userValidation = new UserValidate();
+        userValidation = new UserValidator();
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //get dto
-        if (userValidation.isValidate(req)){
-            String userName = req.getParameter(USERNAME);
-            String password = req.getParameter(PASSWORD);
+        LoginData loginData = (LoginData) loginFormParserDTO.parse(req);
 
-            User user = new User(userName, password);
+        List<LoginError> loginErrors = userValidation.isValidate(loginData).stream().map(obj -> (LoginError) obj).collect(Collectors.toList());
+
+        if (loginErrors.isEmpty()){
+            User user = new User(loginData.getName(), loginData.getPassword());
 
             logger.debug("Save user in DAO: " + user.toString());
             userDAO.saveUser(user);
@@ -61,14 +68,18 @@ public class LoginController extends HttpServlet {
             req.getSession().setAttribute(USERNAME, user);
 
             logger.debug("Save message logging user: " + user.toString());
-            Message message = new Message(String.format(LOGIN_MESSAGE, userName),
-                    TypeMessage.LOGIN, userName, new Date());
+            Message message = new Message(String.format(LOGIN_MESSAGE, loginData.getName()),
+                    TypeMessage.LOGIN, loginData.getPassword(), new Date());
             messageDAO.addMessage(message);
 
             logger.info("User is logging in chat: " + user.toString());
             resp.sendRedirect(PAGE_CHAT);
         } else {
-            logger.info("User didn't enter the chat " + req.getParameter(USERNAME));
+            logger.info("User didn't enter the chat: " + loginData.getName());
+
+            loginErrors.forEach(loginError -> req.setAttribute(loginError.getKey(), loginError.getValue()));
+            logger.debug("Output error of login: " + loginErrors.stream().map(LoginError::toString).reduce("", (log, currentLoginError) -> log + currentLoginError));
+
             req.getRequestDispatcher(PAGE_LOGIN).forward(req, resp);
         }
     }

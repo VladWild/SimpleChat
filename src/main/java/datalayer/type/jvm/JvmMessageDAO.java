@@ -1,12 +1,10 @@
 package datalayer.type.jvm;
 
 import datalayer.MessageDAO;
-import datalayer.data.message.Message;
+import datalayer.data.massage.Message;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
 
 class JvmMessageDAO implements MessageDAO {
     private static JvmMessageDAO jvmMessageDAO;

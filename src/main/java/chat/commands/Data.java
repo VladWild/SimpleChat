@@ -1,12 +1,11 @@
 package chat.commands;
 
 import chat.Command;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import datalayer.MessageDAO;
 import datalayer.UserDAO;
 import datalayer.data.User;
-import dto.output.DynamicData;
-import datalayer.data.message.Message;
+import datalayer.data.massage.Message;
+import dto.chat.DynamicData;
 import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
@@ -17,11 +16,7 @@ import java.util.Arrays;
 public class Data implements Command {
     private static final Logger logger = Logger.getLogger(Data.class);
 
-    @Override
-    public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO, ObjectMapper mapper) throws IOException {
-        User user = (User) req.getSession().getAttribute(USERNAME);
-        logger.debug("Get user from current session: " + user.toString());
-
+    private void setResponseData(HttpServletResponse resp, User user, UserDAO userDAO, MessageDAO messageDAO) throws IOException {
         Message[] messages = messageDAO.getAllMessages();
         logger.debug("Get messages from DAO: " + Arrays.stream(messages).map(Message::toString).reduce("", (log, currentMessage) -> log + currentMessage));
         String[] users = userDAO.getAllUserNamesExceptIn(user.getName());
@@ -30,8 +25,13 @@ public class Data implements Command {
         DynamicData dynamicData = new DynamicData(messages, users);
         logger.debug("Create \"DynamicData\" DTO: " + dynamicData.toString());
 
-        String dynamicDataJson = mapper.writeValueAsString(dynamicData);
-        logger.debug("Messages data in JSON format for output: " + dynamicDataJson);
-        resp.getWriter().write(dynamicDataJson);
+        sendData(resp, dynamicData);
+    }
+
+    @Override
+    public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO) throws IOException {
+        User user = getUserFromSession(req);
+
+        setResponseData(resp, user, userDAO, messageDAO);
     }
 }

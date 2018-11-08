@@ -1,17 +1,15 @@
 package chat.commands;
 
 import chat.Command;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import datalayer.MessageDAO;
 import datalayer.UserDAO;
 import datalayer.data.User;
-import datalayer.data.message.Message;
-import datalayer.data.message.TypeMessage;
+import datalayer.data.massage.Message;
+import datalayer.data.massage.TypeMessage;
 import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.util.Date;
 
 public class Logout implements Command {
@@ -19,13 +17,10 @@ public class Logout implements Command {
 
     private static final Logger logger = Logger.getLogger(Logout.class);
 
-    @Override
-    public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO, ObjectMapper mapper) throws IOException {
-        User user = (User) req.getSession().getAttribute(USERNAME);
-        logger.debug("Get user from current session: " + user.toString());
-
+    private void executeLogout(HttpServletRequest req, User user, UserDAO userDAO, MessageDAO messageDAO){
         userDAO.removeUserByName(user.getName());
         logger.debug("Remove user from DAO: " + user.toString());
+
         req.getSession().invalidate();
         logger.debug("Remove session");
 
@@ -34,4 +29,12 @@ public class Logout implements Command {
         messageDAO.addMessage(message);
         logger.debug("Add message in DAO: " + message.toString());
     }
+
+    @Override
+    public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO) {
+        User user = getUserFromSession(req);
+
+        executeLogout(req, user, userDAO, messageDAO);
+    }
 }
+

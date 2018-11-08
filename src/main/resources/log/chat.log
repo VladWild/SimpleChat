@@ -1,15 +1,46 @@
-2018-11-06 11:38:07,840 DEBUG chat.commands.Data               - Messages data in JSON format for output: {"messages":[{"text":"User \"1\" is logging in chat","type":"LOGIN","userName":"1","date":"11:07:59"},{"text":"User \"2\" is logging in chat","type":"LOGIN","userName":"2","date":"11:09:00"}],"users":["2"]}
-2018-11-06 11:38:09,830 INFO  controllers.ChatController       - Type of command: DATA
-2018-11-06 11:38:09,830 INFO  controllers.ChatController       - Execute of command: DATA
-2018-11-06 11:38:09,830 DEBUG chat.commands.Data               - Get user from current session: User(name=1, password=1)
-2018-11-06 11:38:09,830 DEBUG chat.commands.Data               - Get messages from DAO: Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=11:07:59)Message(text=User "2" is logging in chat, type=LOGIN, userName=2, date=11:09:00)
-2018-11-06 11:38:09,831 DEBUG chat.commands.Data               - Get all users for "1": 2
-2018-11-06 11:38:09,831 DEBUG chat.commands.Data               - Create "DynamicData" DTO: DynamicData(messages=[Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=11:07:59), Message(text=User "2" is logging in chat, type=LOGIN, userName=2, date=11:09:00)], users=[2])
-2018-11-06 11:38:09,831 DEBUG chat.commands.Data               - Messages data in JSON format for output: {"messages":[{"text":"User \"1\" is logging in chat","type":"LOGIN","userName":"1","date":"11:07:59"},{"text":"User \"2\" is logging in chat","type":"LOGIN","userName":"2","date":"11:09:00"}],"users":["2"]}
-2018-11-06 11:38:11,829 INFO  controllers.ChatController       - Type of command: DATA
-2018-11-06 11:38:11,829 INFO  controllers.ChatController       - Execute of command: DATA
-2018-11-06 11:38:11,829 DEBUG chat.commands.Data               - Get user from current session: User(name=1, password=1)
-2018-11-06 11:38:11,829 DEBUG chat.commands.Data               - Get messages from DAO: Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=11:07:59)Message(text=User "2" is logging in chat, type=LOGIN, userName=2, date=11:09:00)
-2018-11-06 11:38:11,829 DEBUG chat.commands.Data               - Get all users for "1": 2
-2018-11-06 11:38:11,829 DEBUG chat.commands.Data               - Create "DynamicData" DTO: DynamicData(messages=[Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=11:07:59), Message(text=User "2" is logging in chat, type=LOGIN, userName=2, date=11:09:00)], users=[2])
-2018-11-06 11:38:11,829 DEBUG chat.commands.Data               - Messages data in JSON format for output: {"messages":[{"text":"User \"1\" is logging in chat","type":"LOGIN","userName":"1","date":"11:07:59"},{"text":"User \"2\" is logging in chat","type":"LOGIN","userName":"2","date":"11:09:00"}],"users":["2"]}
+2018-11-09 01:19:18,717 DEBUG parsers.login.LoginFormParserDTO - Get username from request: 1
+2018-11-09 01:19:18,717 DEBUG parsers.login.LoginFormParserDTO - Get password from request: 1
+2018-11-09 01:19:18,717 DEBUG validation.UserValidator         - Get loginData: LoginData(name=1, password=1)
+2018-11-09 01:19:18,718 DEBUG validation.UserValidator         - Clear login errors
+2018-11-09 01:19:18,718 DEBUG validation.UserValidator         - Username is not empty: 1
+2018-11-09 01:19:18,718 DEBUG validation.UserValidator         - Password is not empty: 1
+2018-11-09 01:19:18,725 DEBUG validation.UserValidator         - Username and password is validate: User(name=1, password=1)
+2018-11-09 01:19:18,727 DEBUG controllers.LoginController      - Save user in DAO: User(name=1, password=1)
+2018-11-09 01:19:18,727 DEBUG controllers.LoginController      - Save user in request: User(name=1, password=1)
+2018-11-09 01:19:18,727 DEBUG controllers.LoginController      - Save message logging user: User(name=1, password=1)
+2018-11-09 01:19:18,730 INFO  controllers.LoginController      - User is logging in chat: User(name=1, password=1)
+2018-11-09 01:19:18,795 INFO  controllers.ChatController       - Type of command: LOGIN
+2018-11-09 01:19:18,934 INFO  controllers.ChatController       - Execute of command: LOGIN
+2018-11-09 01:19:18,934 DEBUG chat.Command                     - Get user from current session: User(name=1, password=1)
+2018-11-09 01:19:18,936 DEBUG chat.commands.Login              - Get messages from DAO: Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=01:19:18)
+2018-11-09 01:19:18,940 DEBUG chat.commands.Login              - Get users from DAO: 
+2018-11-09 01:19:18,942 DEBUG chat.commands.Login              - Initialization data DTO: InitializationData(userName=1)
+2018-11-09 01:19:18,985 DEBUG chat.Command                     - Data in JSON format for output: InitializationData(userName=1)
+2018-11-09 01:19:20,659 INFO  controllers.ChatController       - Type of command: SENDMESSAGE
+2018-11-09 01:19:20,661 INFO  controllers.ChatController       - Execute of command: SENDMESSAGE
+2018-11-09 01:19:20,662 DEBUG chat.commands.SendMessage        - Get "MassageData" DTO from "parsers.chat.SendMessageParserDTO": MassageData(text=gfbgfbgfbgfb)
+2018-11-09 01:19:20,662 DEBUG chat.Command                     - Get user from current session: User(name=1, password=1)
+2018-11-09 01:19:20,662 DEBUG chat.commands.SendMessage        - Add message in DAO: Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:20)
+2018-11-09 01:19:20,663 DEBUG chat.commands.SendMessage        - Get messages from DAO: Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=01:19:18)Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:20)
+2018-11-09 01:19:20,664 DEBUG chat.Command                     - Data in JSON format for output: [Ldatalayer.data.massage.Message;@4003996f
+2018-11-09 01:19:20,790 INFO  controllers.ChatController       - Type of command: DATA
+2018-11-09 01:19:20,791 INFO  controllers.ChatController       - Execute of command: DATA
+2018-11-09 01:19:20,791 DEBUG chat.Command                     - Get user from current session: User(name=1, password=1)
+2018-11-09 01:19:20,792 DEBUG chat.commands.Data               - Get messages from DAO: Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=01:19:18)Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:20)
+2018-11-09 01:19:20,792 DEBUG chat.commands.Data               - Get all users for "1": 
+2018-11-09 01:19:20,792 DEBUG chat.commands.Data               - Create "DynamicData" DTO: DynamicData(messages=[Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=01:19:18), Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:20)], users=[])
+2018-11-09 01:19:20,793 DEBUG chat.Command                     - Data in JSON format for output: DynamicData(messages=[Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=01:19:18), Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:20)], users=[])
+2018-11-09 01:19:22,754 INFO  controllers.ChatController       - Type of command: SENDMESSAGE
+2018-11-09 01:19:22,755 INFO  controllers.ChatController       - Execute of command: SENDMESSAGE
+2018-11-09 01:19:22,755 DEBUG chat.commands.SendMessage        - Get "MassageData" DTO from "parsers.chat.SendMessageParserDTO": MassageData(text=gfbgfbgfbgfb)
+2018-11-09 01:19:22,755 DEBUG chat.Command                     - Get user from current session: User(name=1, password=1)
+2018-11-09 01:19:22,755 DEBUG chat.commands.SendMessage        - Add message in DAO: Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:22)
+2018-11-09 01:19:22,755 DEBUG chat.commands.SendMessage        - Get messages from DAO: Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=01:19:18)Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:20)Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:22)
+2018-11-09 01:19:22,755 DEBUG chat.Command                     - Data in JSON format for output: [Ldatalayer.data.massage.Message;@1cb785eb
+2018-11-09 01:19:22,790 INFO  controllers.ChatController       - Type of command: DATA
+2018-11-09 01:19:22,790 INFO  controllers.ChatController       - Execute of command: DATA
+2018-11-09 01:19:22,791 DEBUG chat.Command                     - Get user from current session: User(name=1, password=1)
+2018-11-09 01:19:22,791 DEBUG chat.commands.Data               - Get messages from DAO: Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=01:19:18)Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:20)Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:22)
+2018-11-09 01:19:22,791 DEBUG chat.commands.Data               - Get all users for "1": 
+2018-11-09 01:19:22,791 DEBUG chat.commands.Data               - Create "DynamicData" DTO: DynamicData(messages=[Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=01:19:18), Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:20), Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:22)], users=[])
+2018-11-09 01:19:22,791 DEBUG chat.Command                     - Data in JSON format for output: DynamicData(messages=[Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=01:19:18), Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:20), Message(text=gfbgfbgfbgfb, type=MASSAGE, userName=1, date=01:19:22)], users=[])

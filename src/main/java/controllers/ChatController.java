@@ -2,10 +2,7 @@ package controllers;
 
 import chat.Command;
 import chat.CommandType;
-import chat.parsers.ParserDTO;
-import chat.parsers.SendMessageParserDTO;
 import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import datalayer.DAOFactory;
 import datalayer.MessageDAO;
 import datalayer.StorageType;
@@ -24,8 +21,6 @@ public class ChatController extends HttpServlet {
     private MessageDAO messageDAO;
     private UserDAO userDAO;
 
-    private ObjectMapper mapper;
-
     private static final Logger logger = Logger.getLogger(ChatController.class);
 
     @Override
@@ -33,8 +28,6 @@ public class ChatController extends HttpServlet {
         DAOFactory daoFactory = DAOFactory.getInstance(StorageType.JVM);
         userDAO = daoFactory.getUserDAO();
         messageDAO = daoFactory.getMessageDAO();
-
-        mapper = new ObjectMapper();
     }
 
     @Override
@@ -48,7 +41,7 @@ public class ChatController extends HttpServlet {
             Command command = CommandType.getCommandChat(commandType);
 
             logger.info("Execute of command: " + commandType);
-            command.execute(req, resp, userDAO, messageDAO, mapper);
+            command.execute(req, resp, userDAO, messageDAO);
         } catch (IllegalArgumentException e){
             logger.error("Requested unknown command: " + e.toString());
         } catch (JsonParseException e){

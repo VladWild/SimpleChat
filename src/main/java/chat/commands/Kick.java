@@ -1,21 +1,21 @@
 package chat.commands;
 
 import chat.Command;
-import chat.parsers.KickParserDTO;
-import chat.parsers.ParserDTO;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import datalayer.MessageDAO;
 import datalayer.UserDAO;
 import datalayer.data.User;
-import dto.input.KickUserData;
-import dto.output.DynamicData;
-import datalayer.data.message.Message;
-import datalayer.data.message.TypeMessage;
+import datalayer.data.massage.Message;
+import datalayer.data.massage.TypeMessage;
+import dto.chat.DynamicData;
+import dto.chat.KickUserData;
 import org.apache.log4j.Logger;
+import parsers.ParserDTO;
+import parsers.chat.KickParserDTO;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -26,16 +26,13 @@ public class Kick implements Command {
 
     private static final Logger logger = Logger.getLogger(Kick.class);
 
-    @Override
-    public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO, ObjectMapper mapper) throws IOException {
-        // get dto
+    private KickUserData getKickUserDataDTO(HttpServletRequest req) throws UnsupportedEncodingException {
         KickUserData kickUserData = (KickUserData) parserDTO.parse(req);
-        logger.debug("Get \"MassageData\" DTO from \"SendMessageParserDTO\": " + kickUserData.toString());
-        User user = (User) req.getSession().getAttribute(USERNAME);
-        logger.debug("Get user from current session: " + user.toString());
+        logger.debug("Get \"MassageData\" DTO from \"parsers.chat.SendMessageParserDTO\": " + kickUserData.toString());
+        return kickUserData;
+    }
 
-
-        //exec command
+    private void executeKick(KickUserData kickUserData, User user, UserDAO userDAO, MessageDAO messageDAO){
         userDAO.removeUserByName(kickUserData.getKickUserName());
         logger.debug("User remove from DAO: " + kickUserData.toString());
 
@@ -43,9 +40,9 @@ public class Kick implements Command {
                 TypeMessage.KICK, user.getName(), new Date());
         messageDAO.addMessage(message);
         logger.debug("Add message in DAO: " + message.toString());
+    }
 
-
-        // set response
+    private void setResponseKick(HttpServletResponse resp, User user, UserDAO userDAO, MessageDAO messageDAO) throws IOException {
         String[] users = userDAO.getAllUserNamesExceptIn(user.getName());
         logger.debug("Get all users for \"" + user.getName() + "\": " + Arrays.stream(users).reduce("", (log, currentUser) -> log + currentUser));
 
@@ -55,8 +52,16 @@ public class Kick implements Command {
         DynamicData dynamicData = new DynamicData(messages, users);
         logger.debug("Create \"DynamicData\" DTO: " + dynamicData.toString());
 
-        String dynamicDataJson = mapper.writeValueAsString(dynamicData);
-        logger.debug("Messages data in JSON format for output: " + dynamicDataJson);
-        resp.getWriter().write(dynamicDataJson);
+        sendData(resp, dynamicData);
+    }
+
+    @Override
+    public void execute(HttpServletRequest req, HttpServletResponse resp, UserDAO userDAO, MessageDAO messageDAO) throws IOException {
+        KickUserData kickUserData = getKickUserDataDTO(req);
+        User user = getUserFromSession(req);
+
+        executeKick(kickUserData, user, userDAO, messageDAO);
+
+        setResponseKick(resp, user, userDAO, messageDAO);
     }
 }

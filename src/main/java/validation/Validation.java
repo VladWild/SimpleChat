@@ -1,6 +1,8 @@
 package validation;
 
+import java.util.List;
+
 public interface Validation {
-    boolean isValidate(Object o);
+    List<?> isValidate(Object o);
 }
 
