@@ -1,8 +1,8 @@
 package validation;
 
-import java.util.List;
+import java.util.Set;
 
 public interface Validation {
-    List<?> isValidate(Object o);
+    Set<?> isValidate(Object o);
 }
 

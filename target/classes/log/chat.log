@@ -1,1 +1,75 @@
-2018-11-09 01:16:44,054 DEBUG chat.Command                     - Data in JSON format for output: DynamicData(messages=[Message(text=User "1" is logging in chat, type=LOGIN, userName=1, date=01:15:47), Message(text=nghnghn, type=MASSAGE, userName=1, date=01:15:52), Message(text=User "ghnghnghn" is logging in chat, type=LOGIN, userName=hnghnghnghnghnhngh, date=01:16:07), Message(text=dscdscdsc, type=MASSAGE, userName=1, date=01:16:18), Message(text=sdcdscsdcdscdsc, type=MASSAGE, userName=ghnghnghn, date=01:16:21), Message(text=scdcdscdscdsc, type=MASSAGE, userName=1, date=01:16:24), Message(text=cdscdscdscdscdscdscdsc, type=MASSAGE, userName=1, date=01:16:26), Message(text=@ghnghnghn dscdscdscsdc, type=MASSAGE, userName=1, date=01:16:30), Message(text=sdcdscdscdscdsc@1 @1 @1 @1 @1 @1 @1 @1 @1 @1 , type=MASSAGE, userName=ghnghnghn, date=01:16:35), Message(text=csdcdscdsc, type=MASSAGE, userName=1, date=01:16:38), Message(text=sdscdscdscdscds, type=MASSAGE, userName=ghnghnghn, date=01:16:40)], users=[ghnghnghn])
+2018-11-09 15:03:31,503 DEBUG parsers.login.LoginFormParserDTO - Get username from request: 
+2018-11-09 15:03:31,503 DEBUG parsers.login.LoginFormParserDTO - Get password from request: 
+2018-11-09 15:03:31,503 DEBUG validation.UserValidator         - Get loginData: LoginData(name=, password=)
+2018-11-09 15:03:31,503 DEBUG validation.UserValidator         - Clear login errors
+2018-11-09 15:03:31,504 DEBUG validation.UserValidator         - Username is empty
+2018-11-09 15:03:31,504 DEBUG validation.UserValidator         - Username is not empty: 
+2018-11-09 15:03:31,504 DEBUG validation.UserValidator         - Password is empty
+2018-11-09 15:03:31,504 DEBUG validation.UserValidator         - Password is not empty: 
+2018-11-09 15:03:31,513 DEBUG validation.UserValidator         - Username and password is validate: User(name=, password=)
+2018-11-09 15:03:31,513 INFO  controllers.LoginController      - User didn't enter the chat: 
+2018-11-09 15:03:31,514 DEBUG controllers.LoginController      - List errors set in request: LoginError(typeLoginError=USERNAME_ERROR, message=empty username)LoginError(typeLoginError=PASSWORD_ERROR, message=empty password)
+2018-11-09 15:03:34,566 DEBUG parsers.login.LoginFormParserDTO - Get username from request: 
+2018-11-09 15:03:34,566 DEBUG parsers.login.LoginFormParserDTO - Get password from request: 
+2018-11-09 15:03:34,566 DEBUG validation.UserValidator         - Get loginData: LoginData(name=, password=)
+2018-11-09 15:03:34,566 DEBUG validation.UserValidator         - Clear login errors
+2018-11-09 15:03:34,566 DEBUG validation.UserValidator         - Username is empty
+2018-11-09 15:03:34,566 DEBUG validation.UserValidator         - Username is not empty: 
+2018-11-09 15:03:34,566 DEBUG validation.UserValidator         - Password is empty
+2018-11-09 15:03:34,566 DEBUG validation.UserValidator         - Password is not empty: 
+2018-11-09 15:03:34,567 DEBUG validation.UserValidator         - Username and password is validate: User(name=, password=)
+2018-11-09 15:03:34,567 INFO  controllers.LoginController      - User didn't enter the chat: 
+2018-11-09 15:03:34,567 DEBUG controllers.LoginController      - List errors set in request: LoginError(typeLoginError=USERNAME_ERROR, message=empty username)LoginError(typeLoginError=PASSWORD_ERROR, message=empty password)
+2018-11-09 15:03:36,415 DEBUG parsers.login.LoginFormParserDTO - Get username from request: 
+2018-11-09 15:03:36,415 DEBUG parsers.login.LoginFormParserDTO - Get password from request: 1
+2018-11-09 15:03:36,415 DEBUG validation.UserValidator         - Get loginData: LoginData(name=, password=1)
+2018-11-09 15:03:36,415 DEBUG validation.UserValidator         - Clear login errors
+2018-11-09 15:03:36,415 DEBUG validation.UserValidator         - Username is empty
+2018-11-09 15:03:36,415 DEBUG validation.UserValidator         - Username is not empty: 
+2018-11-09 15:03:36,415 DEBUG validation.UserValidator         - Password is not empty: 1
+2018-11-09 15:03:36,415 DEBUG validation.UserValidator         - Username and password is validate: User(name=, password=1)
+2018-11-09 15:03:36,415 INFO  controllers.LoginController      - User didn't enter the chat: 
+2018-11-09 15:03:36,415 DEBUG controllers.LoginController      - List errors set in request: LoginError(typeLoginError=USERNAME_ERROR, message=empty username)
+2018-11-09 15:03:41,470 DEBUG parsers.login.LoginFormParserDTO - Get username from request: 1
+2018-11-09 15:03:41,471 DEBUG parsers.login.LoginFormParserDTO - Get password from request: 
+2018-11-09 15:03:41,471 DEBUG validation.UserValidator         - Get loginData: LoginData(name=1, password=)
+2018-11-09 15:03:41,471 DEBUG validation.UserValidator         - Clear login errors
+2018-11-09 15:03:41,471 DEBUG validation.UserValidator         - Username is not empty: 1
+2018-11-09 15:03:41,471 DEBUG validation.UserValidator         - Password is empty
+2018-11-09 15:03:41,471 DEBUG validation.UserValidator         - Password is not empty: 
+2018-11-09 15:03:41,471 DEBUG validation.UserValidator         - Username and password is validate: User(name=1, password=)
+2018-11-09 15:03:41,471 INFO  controllers.LoginController      - User didn't enter the chat: 1
+2018-11-09 15:03:41,471 DEBUG controllers.LoginController      - List errors set in request: LoginError(typeLoginError=PASSWORD_ERROR, message=empty password)
+2018-11-09 15:03:46,725 DEBUG parsers.login.LoginFormParserDTO - Get username from request: 
+2018-11-09 15:03:46,726 DEBUG parsers.login.LoginFormParserDTO - Get password from request: 
+2018-11-09 15:03:46,726 DEBUG validation.UserValidator         - Get loginData: LoginData(name=, password=)
+2018-11-09 15:03:46,726 DEBUG validation.UserValidator         - Clear login errors
+2018-11-09 15:03:46,726 DEBUG validation.UserValidator         - Username is empty
+2018-11-09 15:03:46,726 DEBUG validation.UserValidator         - Username is not empty: 
+2018-11-09 15:03:46,726 DEBUG validation.UserValidator         - Password is empty
+2018-11-09 15:03:46,726 DEBUG validation.UserValidator         - Password is not empty: 
+2018-11-09 15:03:46,727 DEBUG validation.UserValidator         - Username and password is validate: User(name=, password=)
+2018-11-09 15:03:46,727 INFO  controllers.LoginController      - User didn't enter the chat: 
+2018-11-09 15:03:46,727 DEBUG controllers.LoginController      - List errors set in request: LoginError(typeLoginError=USERNAME_ERROR, message=empty username)LoginError(typeLoginError=PASSWORD_ERROR, message=empty password)
+2018-11-09 15:03:49,429 DEBUG parsers.login.LoginFormParserDTO - Get username from request: 
+2018-11-09 15:03:49,429 DEBUG parsers.login.LoginFormParserDTO - Get password from request: 
+2018-11-09 15:03:49,429 DEBUG validation.UserValidator         - Get loginData: LoginData(name=, password=)
+2018-11-09 15:03:49,429 DEBUG validation.UserValidator         - Clear login errors
+2018-11-09 15:03:49,429 DEBUG validation.UserValidator         - Username is empty
+2018-11-09 15:03:49,429 DEBUG validation.UserValidator         - Username is not empty: 
+2018-11-09 15:03:49,429 DEBUG validation.UserValidator         - Password is empty
+2018-11-09 15:03:49,429 DEBUG validation.UserValidator         - Password is not empty: 
+2018-11-09 15:03:49,429 DEBUG validation.UserValidator         - Username and password is validate: User(name=, password=)
+2018-11-09 15:03:49,429 INFO  controllers.LoginController      - User didn't enter the chat: 
+2018-11-09 15:03:49,430 DEBUG controllers.LoginController      - List errors set in request: LoginError(typeLoginError=USERNAME_ERROR, message=empty username)LoginError(typeLoginError=PASSWORD_ERROR, message=empty password)
+2018-11-09 15:03:52,734 DEBUG parsers.login.LoginFormParserDTO - Get username from request: 
+2018-11-09 15:03:52,734 DEBUG parsers.login.LoginFormParserDTO - Get password from request: 
+2018-11-09 15:03:52,734 DEBUG validation.UserValidator         - Get loginData: LoginData(name=, password=)
+2018-11-09 15:03:52,734 DEBUG validation.UserValidator         - Clear login errors
+2018-11-09 15:03:52,734 DEBUG validation.UserValidator         - Username is empty
+2018-11-09 15:03:52,734 DEBUG validation.UserValidator         - Username is not empty: 
+2018-11-09 15:03:52,734 DEBUG validation.UserValidator         - Password is empty
+2018-11-09 15:03:52,734 DEBUG validation.UserValidator         - Password is not empty: 
+2018-11-09 15:03:52,734 DEBUG validation.UserValidator         - Username and password is validate: User(name=, password=)
+2018-11-09 15:03:52,734 INFO  controllers.LoginController      - User didn't enter the chat: 
+2018-11-09 15:03:52,734 DEBUG controllers.LoginController      - List errors set in request: LoginError(typeLoginError=USERNAME_ERROR, message=empty username)LoginError(typeLoginError=PASSWORD_ERROR, message=empty password)

@@ -4,8 +4,8 @@ import datalayer.DAOFactory;
 import datalayer.MessageDAO;
 import datalayer.StorageType;
 import datalayer.UserDAO;
-import datalayer.data.LoginError;
 import datalayer.data.User;
+import datalayer.data.loginerror.LoginError;
 import datalayer.data.massage.Message;
 import datalayer.data.massage.TypeMessage;
 import dto.login.LoginData;
@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Date;
-import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 @WebServlet(name = "login", urlPatterns = "/login")
@@ -33,6 +33,7 @@ public class LoginController extends HttpServlet {
     private static final String PAGE_LOGIN = "/login.jsp";
 
     private static final String USERNAME = "username";
+    private static final String ERRORS = "errors";
 
     private static ParserDTO loginFormParserDTO = new LoginFormParserDTO();
 
@@ -56,7 +57,7 @@ public class LoginController extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         LoginData loginData = (LoginData) loginFormParserDTO.parse(req);
 
-        List<LoginError> loginErrors = userValidation.isValidate(loginData).stream().map(obj -> (LoginError) obj).collect(Collectors.toList());
+        Set<LoginError> loginErrors = userValidation.isValidate(loginData).stream().map(obj -> (LoginError) obj).collect(Collectors.toSet());
 
         if (loginErrors.isEmpty()){
             User user = new User(loginData.getName(), loginData.getPassword());
@@ -77,8 +78,8 @@ public class LoginController extends HttpServlet {
         } else {
             logger.info("User didn't enter the chat: " + loginData.getName());
 
-            loginErrors.forEach(loginError -> req.setAttribute(loginError.getKey(), loginError.getValue()));
-            logger.debug("Output error of login: " + loginErrors.stream().map(LoginError::toString).reduce("", (log, currentLoginError) -> log + currentLoginError));
+            req.setAttribute(ERRORS, loginErrors);
+            logger.debug("List errors set in request: " + loginErrors.stream().map(LoginError::toString).reduce("", (log, currentLoginError) -> log + currentLoginError));
 
             req.getRequestDispatcher(PAGE_LOGIN).forward(req, resp);
         }
